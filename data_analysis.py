@@ -135,16 +135,39 @@ class MispelledRow:
                     self._correctedFields[field] = self.correctName(self._row[field])
 
                if field == "job":
-                   pass #TBD
+                   self._correctedFields[field] = self.correctJob(self._row[field])
            else:
-               pass #TBD
+               self._correctedFields[field] = self._row[field]
+
+
+    def correctJob(self, job : str) -> str:
+        if pd.isna(job):
+            return ""
+        
+        elif not isinstance(job, str):
+           raise ValueError(f"{job} is not a string!")
+        
+        
+        new = ""
+
+        for i, x in enumerate(self._row["job"].replace(",", " ").split()):
+            if i == 0:
+                new = new + str(x).upper()
+            else:
+                new = new+ str(x).lower()
+        return new
                    
                    
     def correctName(self, name : str) -> str:
-        if not isinstance(name, str):
+        if pd.isna(name):
+                    return ""
+        
+        elif not isinstance(name, str):
            raise ValueError(f"{name} is not a string!")
-       
+
+
         new = ""
+
         for word in self._row["name"].replace("'", " ").split(" "):
             for i, x in word:
                 if i == 0:

@@ -1,7 +1,7 @@
 from pathlib import Path
 from data_analysis import CSVDataAnalyzer 
-from data_analysis import MispelledRow
 import dirty_data_generator as ddg
+import MisspelledValues as MV
 import pandas as pd
 
 
@@ -17,12 +17,11 @@ myAnalyzer = CSVDataAnalyzer()
 myAnalyzer.read_data(filename)
 #duplicated_data = myAnalyzer.list_duplicates(sort_descending=False)
 
-duplicated_data = myAnalyzer.list_and_drop_duplicates(_sort_descending = False, printLog=True,
-                                                      _inplace = False, _keep = 'first')
-for row in duplicated_data:
-    print(row)
+duplicated_data = myAnalyzer.list_and_drop_duplicates(sort_descending = False, printLog=True,
+                                                       keep = 'first')
+#for row in duplicated_data:
+#    print(row)
 
+MV.list_misspelled_rows(myAnalyzer._df)
 print(myAnalyzer._df)
 
-test = MispelledRow(myAnalyzer._df.iloc[3])
-print(test)

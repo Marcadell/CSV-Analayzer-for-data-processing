@@ -5,14 +5,16 @@ import csv
 """
 Config vectors for dirty csv generation.
 """
-MISSING_DATA_CONFIG = {"no_name" : 0.2, "no_country" : 0.15,
+MISSING_DATA_CONFIG = {"no_name" : 0.2, "no_provincia" : 0.15,
                         "no_age": 0.3, "no_money": 0.05,
-                        "no_job": 0.1}
+                        "no_cie": 0.1}
 
-MISSPELLED_DATA_CONFIG = {"misp_name"  : 0.1, "misp_country" : 0.15,
-                            "misp_job" : 0.2}
+MISSPELLED_DATA_CONFIG = {"misp_name"  : 0.1, "misp_provincia" : 0.15,
+                            "misp_cie" : 0.2}
 
 WRONG_DATA_CONFIG = {"wrong_name" : 0.1, "wrong_age" : 0.15, "wrong_money" : 0.3}
+
+
 
 def roll_a_dice(probability : float) -> bool:
     """
@@ -86,7 +88,7 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
     duplicate_cnt = max_number_of_duplicates
 
     fake = Faker(locale=faker_locale)
-    field_list = ["name","age","country","job","money"]
+    field_list = ["name","age","provincia","cie","money"]
 
     with open(filename, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=field_list)
@@ -96,9 +98,9 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
 
             # Sample data
             name = fake.name()
-            country = fake.country()
+            provincia = fake.country_code()
             age = random.randint(1,100)
-            job = fake.job()
+            cie = fake.cie()
             money = random.uniform(1, 10e5)
 
             
@@ -111,11 +113,11 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
                 name = wrong_format_string(name, "name")
 
             
-            # Country
-            if roll_a_dice(MISSING_DATA_CONFIG["no_country"]) :
-                country = None
-            elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_country"]) :
-                country = misspell_string(country)
+            # Provincia
+            if roll_a_dice(MISSING_DATA_CONFIG["no_provincia"]) :
+                provincia = None
+            elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_provincia"]) :
+                provincia = misspell_string(provincia)
 
         
             # Age
@@ -133,15 +135,15 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
             
 
             # Job
-            if roll_a_dice(MISSING_DATA_CONFIG["no_job"]) :
-                job = None
-            elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_job"]) :
-                job = misspell_string(job)
+            if roll_a_dice(MISSING_DATA_CONFIG["no_cie"]) :
+                cie = None
+            elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_cie"]) :
+                cie = misspell_string(cie)
 
             temp_dict = {"name": "" if name is None else name,
                         "age" : "" if age is None else str(age),
-                        "country" : "" if country is None else country,
-                        "job" : "" if job is None else job,
+                        "provincia" : "" if provincia is None else provincia,
+                        "cie" : "" if cie is None else cie,
                         "money" : "" if new_money is None else str(new_money)}
             rows.append(temp_dict)
 

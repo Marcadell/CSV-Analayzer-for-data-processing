@@ -1,15 +1,1231 @@
-name,age,provincia,cie,money
-Marcella Casadei,85,IS,VF49408TY,374746.36732970766
-Gianpietro Collina,80,IR,YI40614QN,488223.2539823783
-Marina Marenzio,12,TV,AK42123KW,509713.8237978034
-Melania Mascheroni,,PA,JB10077Pa,568517.7237405485
-Costantino Brunelleschi,70,ER,AS39085XO,818115.5930958379
-,,BE,EK88240GR,703230.3116931262
-Gabriele Tosi,66,AF,LV16657OL,15946.694048146477
-Giulietta Schiaparelli-Dandolo,,PW,GH63219KJ,
-,-89,,uQ92503tg,187264.53675188276
-,2,DM,,
-Clelia Tartaglia,45,GA,UR94847EP,
-Romina Bertoni,58,,RE84655jc,405141.6231763753
-Sig.ra Rosina Borzomì,75,ID,IX03962XN,725120.0386722487
-,,DO,IK40664IM,
+name,age,province,cie,money
+Annalisa Agnesi,76,MB,RZ61959PS,767.23
+Annalisa Agnesi,76,MB,RZ61959PS,767.23
+Goffredo Gonzaga,49,BS,GD36249DQ,1189.09
+Sig. Fulvio Casagrande,29,FR,FG05920KR,1380.87
+Loredana Bombieri,99,TA,TN37800GG,1981.49
+Bettina Morucci-Barberini,69,CN,OI40595XF,601.13
+,60,SV,DW91498MY,2084.91
+Mario Dallara,31,NO,FE90118NQ,1168.08
+Maurizio Pirelli,73,OT,WG99158VL,2017.28
+,60,SV,DW91498MY,2084.91
+Nadia Musatti,59,MN,KF09979NV,775.06
+Liana Bignami,8,PA,BN86672BP,2010.52
+Tonino Platini,25,VE,OQ13798YU,1874.80
+Gelsomina Trevisani,96,TO,MN43718YK,2303.59
+Amico Antonello,44,PE,GU44338UV,
+Rosalia Buonauro,85,BR,ND49844RM,1424.94
+Sig.ra Elena Sauli,58,TE,EP23078UP,1668.30
+Dott. Amalia Trevisani,39,PA,JA48110BD,2054.62
+Sig.ra Elena Sauli,58,TE,EP23078UP,1668.30
+Ciro Smirnoff,42,,JR96714YP,2053.75
+Cirillo Greggio,41,,RU90046ZU,1460.44
+Virgilio Prati,57,PN,UL06516DX,2109.25
+Severino Giacometti-Trentin,8,PD,JB84445ZN,
+Luchino Venturi,41,FM,VM11277QS,
+Liana Bignami,8,PA,BN86672BP,2010.52
+Matilda Dandolo-Sauli,42,VA,LR68002DL,1785.78
+Angelina Spanevello,43,MS,CB09594EQ,421.54
+Coluccio Cherubini,68,FC,QM07898UR,664.89
+Guido Argan,52,FG,LW42319PH,1784.97
+Sig. Raffaellino Farina,30,CH,LV10748FJ,1258.85
+Lucia Gentilini,2,TN,LO78101DV,
+Agnolo Gritti-Disdero,2,VI,EW69978WY,1215.41
+Anita Fabbri-Sbarbaro,73,TN,IF05052HK,1662.42
+Melina Querini,2,SA,AM11565OP,1424.62
+Raffaello Deledda,41,VE,WO49787HZ,1026.10
+Dott. Arnaldo Dalla,50,TP,LX33071VA,1253.04
+Lilla Donarelli,73,PT,VW45198HL,2025.88
+Gelsomina Armani,42,BT,QT61606WZ,1715.48
+Isa Offredi,68,MI,JQ69999VB,2112.36
+Loretta Trillini-Iacobucci,-94,TO,DI15711DD,
+Arnaldo Manacorda,4,CI,FE17199JB,2849.78
+Dott. Sandra Pagliaro,54,AG,CB88020OW,679.00
+Tonia Fantoni-Tognazzi,33,EN,US03572FI,1692.62
+Filippa Passalacqua,34,AP,IA11764AG,2505.22
+Biagio Cammarata,-8,RO,LH83199SO,2085.01
+Graziella Golino,98,MT,XK76873LA,1845.84
+Sig. Eraldo Cagnotto,43,FC,KA44547GY,520.40
+Gino Mattarella,5,MN,QX86395EG,1220.24
+Luchino Venturi,41,FM,VM11277QS,
+Costantino Casadei,21,PC,ZH15124SW,1940.12
+Renata Folliero,67,RG,YR32851AW,2593.77
+Lorenzo Majorana,78,NU,QQ34803IN,1821.98
+Manuel Curci,,VC,KL71769OD,1615.89
+Antonina Lucarelli,70,MC,IC49709BG,2503.87
+Concetta Cusano,53,VC,MF20939MD,2295.89
+Galasso Granatelli,43,CT,TS51975HV,820.34
+Flavio Rienzo,31,,JB39560WI,1050.75
+Bettina Morucci-Barberini,69,CN,OI40595XF,601.13
+Sig.ra Giuliana Goldstein,16,BI,Bw27208wb,1246.79
+Graziella Soderini,78,CA,LO66050IC,1329.17
+Dott. Arturo Bompiani,99,IS,GH76567DD,2990.48
+Dott. Sandro Beccaria,1,RC,OP15387MP,3179.77
+Sig.ra Rosalia Jilani,15,FR,PN90118IT,1943.52
+Raffaello Deledda,41,VE,WO49787HZ,1026.10
+,40,,FU39414YY,865.39
+Sig. Raffaellino Farina,30,CH,LV10748FJ,1258.85
+Lara Battaglia,62,AG,CW55265QW,1565.02
+Letizia Zampa,41,,PY80875ZT,1590.12
+Gelsomina Trevisani,96,TO,MN43718YK,2303.59
+Sig.ra Licia Zanazzo,90,BN,VV62383GU,1438.36
+Roman Jilani,39,VC,BC88902VT,1840.50
+Francesco Corbo,90,NO,BC53618DR,1526.25
+Sig.ra Elena Sauli,58,TE,EP23078UP,1668.30
+Gioffre Bonaventura,50,PT,XJ26628UF,1588.84
+Adriana Morellato,57,LE,,1751.51
+Giampiero Belletini-Jacuzzi,12,AN,KN12890OA,1792.08
+Luchino Venturi,41,FM,VM11277QS,
+Massimo Brambilla,9,VR,XZ04187TV,1038.79
+Sig. Benito Impastato,73,VR,ct67289FI,-320.98
+Salvatore Gianinazzi,98,CT,FH92824CK,1181.18
+Gianna Doria,3,SR,HS23005NX,2037.07
+Dott. Daniele Vendetti,17,CL,,1459.32
+Ramona Bembo,59,TS,JG42710UY,
+Panfilo Mondadori,95,SR,TV54794WF,1759.90
+Gianluca Binaghi,98,PU,ZC47692DO,1706.27
+Dott. Sole Branciforte,44,NA,YN59381EN,2893.73
+Nico Canetta,23,FM,LO69281VD,1070.33
+Milena Seddio-Goldstein,36,TO,VU86085DA,1098.09
+Fortunata Battisti,4,PA,EP23835LY,
+Liberto Poerio-Doglioni,75,CH,UL98826PJ,1802.83
+Zaira Lombardo,85,LE,RS80015LL,1926.78
+Virginia Bruno,69,LE,ZV98155CC,1707.22
+Fortunata Battisti,4,PA,EP23835LY,
+Alina Disdero,2,FM,AZ64773XG,2180.65
+Monica Iadanza,93,PR,VG34301TV,-835.76
+Mattia Agostinelli,93,PU,CU19939BV,1001.94
+Donatella Brancaccio,18,TA,JH64324HP,1221.79
+Fabio Leonardi,67,GE,UC36138WQ,1144.73
+Bianca Marrone-Faugno,99,BT,IE05002JS,1059.63
+Dott. Torquato Silvestri,52,AG,,1329.62
+Francesco Corbo,90,NO,BC53618DR,1526.25
+Zaira Binaghi,20,FG,XC56524YC,1023.26
+Dott. Simone Serraglio,52,PG,KZ82474WQ,2121.00
+Martino Broggini,59,PT,AR17035BZ,1205.70
+Lara Scarponi,17,NA,CB83600ML,624.29
+Ivan Botta,56,,OZ47366EE,820.05
+Vincenzo Prada,15,SO,LJ53044NJ,591.83
+Dante Omma,81,EN,VP75395LS,426.93
+Sig.ra Eliana Bassi,19,FR,DY15550ZE,708.50
+Marco Malpighi,56,BO,LV73968AE,2291.83
+Antonella Brunello,74,RC,ZM50529ML,1676.83
+Dott. Simone Odescalchi,78,Sr,LY44646XB,745.90
+Livio Tamburello-Boito,91,MS,FI57112RX,1371.34
+Sig. Sergius Valguarnera,38,TV,NB65237JS,1005.39
+Sig. Luchino Dibiasi,30,FE,WR79689JX,1318.44
+Sig.ra Caterina Infantino,83,RC,WY84642OM,837.90
+Toni Balla,17,IM,YN57942TS,1648.33
+Dott. Antonella Boito,57,SR,FE21319EI,2556.60
+Ilaria Malacarne,12,PN,FK02986DM,$1234.03
+Nicolò Grifeo,64,BR,UM52039UN,2220.80
+Stefani Pigafetta,40,RM,TX10376VW,843.33
+Alina Ammaniti,88,FG,UX78221UN,1363.28
+Zaira Binaghi,20,FG,XC56524YC,1023.26
+Goffredo Ajello-Dellucci,26,BI,NO88799DC,2546.72
+Toni Bettoni-Scalera,,PD,KA08976FJ,2108.80
+Irma Foconi,91,VA,TQ57255MI,2201.97
+Elvira Borzomì,67,OT,KF99347ND,791.62
+Dott. Elmo Luzi,15,RG,OB62774XG,1819.97
+Giuliano Conte,71,AR,xE26365KW,1302.18
+Salvatore Gianinazzi,98,CT,FH92824CK,1181.18
+Sig.ra Vincenza Pascarella,40,CB,BJ41912OM,123.59
+Annetta Barsanti-Bulzoni,81,AT,CL88085OX,2301.96
+Lilla Albertini,51,KR,LB85712CN,2154.14
+Nicola Cusano-Zaguri,16,TV,HV81143PX,1550.02
+Elmo Montanariello-Binaghi,4,GR,fe51142dE,956.07
+Dott. Carla Casalodi,79,TE,VQ46625KR,938.08
+Amanda Verdi,20,CH,GB05306EK,1521.53
+Rossana Babbo-Pellegrini,83,BS,YL61003OJ,2563.05
+Luca Pignatti,29,LI,BL67014CG,1693.33
+Laureano Broggini,48,VI,VG06042EV,1189.73
+Dott. Daniele Vendetti,17,CL,,1459.32
+Cecilia Trezzini,,AL,EV62856ZY,$1201.06
+Irma Galilei-Trentini,11,TR,NM04518JJ,1705.08
+Nadia Nolcini,95,LO,LB56043MG,2377.04
+Alderano Montalcini,,VV,SI55965DQ,362.11
+Dott. Maria Vasari,49,AL,EX15861XO,3038.75
+Marissa Vattimo-Semitecolo,14,,ZE79711AO,929.33
+Luchino Venturi,41,FM,VM11277QS,
+Roberto Endrizzi-Gargallo,3,PA,UP22773MB,1294.12
+Orlando Giusti,68,TP,ZV23371ZV,1699.31
+Gianluigi Toselli,55,LC,YF41073UN,1544.32
+Ricciotti Delle,81,VE,PC25117LZ,2571.35
+,37,RO,JG60993VL,1893.84
+Galasso Stoppani-Barracco,1,PO,,1950.81
+Angelina Paoletti,2,,YG95483UN,
+Manuel Salgari,80,FI,GY92267XB,2860.92
+Serena Ceri,93,OG,YH81035XD,2016.26
+Dott. Lucio Broggini,70,FC,IG18276GB,2011.57
+Dott. Alfio Canevascini,97,CN,EF97951YB,1542.68
+Emma Esposito,53,LO,OO78250HD,2033.59
+Maura Cianciolo-Pagnotto,10,TR,KX14184OZ,
+Nadia Strangio,40,PR,PR67316KQ,1256.16
+Chiara Rossetti-Mazzini,67,CN,XD28615UF,1510.86
+Lina Malatesta,10,PC,LX10936PM,1142.67
+Dott. Gianfranco Bazzi,55,,QO46095TQ,1192.36
+Rolando Traversa,69,,VO32241ND,1564.54
+Lorenzo Roccabonella,35,PD,WC71556BA,$1274.84
+Sig.ra Daria Guinizzelli,49,MN,XG12525NG,2876.48
+Emma Fracci-Bocca,62,KR,KS84808ZM,1307.76
+Renata Siffredi,28,PU,JC11125VA,1666.37
+Sig.ra Filippa Castellitto,-85,LU,DS50277QF,1618.80
+Annibale Barsanti,48,PR,LW91974UH,1218.23
+Ugolino Garibaldi-Antonacci,77,MB,RO06320YS,2096.83
+Natalia Sgalambro,19,AV,NR07850LQ,1701.38
+Fabio Ritacca,2,BA,RW46514AM,1506.44
+Victoria Troisi-Boito,36,VI,VB24629KD,1824.22
+Sig. Vincenzo Ubaldi,36,AL,NY74690DH,998.37
+Dott. Oreste Giannotti,87,PC,CI67350OS,2511.61
+Antonietta Corradi,28,PI,NZ92457MH,1780.30
+Laura Antonioni-Naccari,-68,CE,CH26697WO,1532.60
+Alina Fagotto,19,PC,LN46802UL,694.80
+Loredana Tropea-Amato,12,UD,YM07492UG,768.98
+Laura Niscoromni,14,SA,DY74397CG,1658.88
+Diana Capuana,38,,QY05534LN,2721.56
+Fortunata Peranda,65,RE,LX13959HI,890.53
+Gino Mattarella,5,MN,QX86395EG,1220.24
+Alessandra Roth-Sabatini,62,EN,AB26242TT,1918.43
+Luca Fallaci-Borgia,20,,KZ02392KB,1327.53
+Sig.ra Nina Marini,53,PO,WV63367AL,2433.00
+Rossana Babbo-Pellegrini,83,BS,YL61003OJ,2563.05
+Lucio Scalera,9,GE,WB74798XO,2843.15
+Fortunata Peranda,65,RE,LX13959HI,890.53
+Ronaldo Borroni-Martinelli,21,VA,OQ83533HO,1390.17
+Agnolo Gritti-Disdero,2,VI,EW69978WY,1215.41
+Niccolò Sandi,89,MN,TJ72643MO,1664.54
+Gino Redi,16,CE,IJ83784TC,1637.69
+Stella Caruso,76,CR,VS47709BT,716.88
+Patrizia Molesini,43,MS,HN20940UB,1120.20
+Toni Bettoni-Scalera,,PD,KA08976FJ,2108.80
+Irma Garzoni-Zola,19,tA,FS63489RG,1673.14
+Angelina Muratori-Scamarcio,58,CI,MF62642YI,1990.69
+Delfino Orlando-Turchi,97,BS,DN01036UR,2326.84
+Tina Natta,10,FC,DE93560WW,1953.58
+Fedele Grifeo,54,CS,SF94168WH,707.01
+Gelsomina Vanvitelli,49,CS,DL71399TW,632.02
+Adelasia Nicoletti,13,,EE67668CF,2079.94
+Natalia Tafuri-Pedrazzini,19,VE,KJ05411ZD,1077.61
+Stella Troisi-Marinetti,35,CL,IX44800GN,1292.06
+Ilaria Bonanno,39,SR,CU08691AP,1095.39
+Lucia Bragadin,68,PN,MX79185YB,1517.48
+Susanna Paganini,43,FG,FC68629HE,1785.96
+Dott. Fiamma Cutrufo,,VA,FZ58146NX,1517.17
+Dott. Alessio Beccheria,,CI,JH19073EP,
+Sig.ra Nina Cuomo,60,PA,XD96455SI,1037.88
+Donatella Nitti-Camuccini,14,PE,NP36900KB,522.68$
+Dott. Simone Serraglio,52,PG,KZ82474WQ,2121.00
+Ruggiero Sordi,97,TO,TP52212PH,1234.04
+Dott. Fortunata Mengolo,79,PV,FS35371QL,2148.88
+Dott. Viridiana Bajardi,91,VI,BG61156RG,1061.36
+Romana Pratesi,56,TN,BY08463TH,1386.51
+Diana Tonisto,25,BN,ZE20276JZ,2755.63
+Elvira Lussu,65,RO,LI34375TI,1485.97
+Orazio Marino,44,AV,YY03696PC,1747.06
+Dott. Elmo Luzi,15,RG,OB62774XG,1819.97
+Luisa Ferragni,56,VA,PU62846BM,$1926.94
+Susanna Tonisto,98,ME,MF47908XJ,1744.17
+Ricciotti Moresi-Canali,33,TR,XL85742HS,1563.29
+Luigina Parini,51,AV,TB85080ZS,221.82
+Fabrizia Dulbecco,59,FG,DX45583RX,$738.75
+Gianfranco Soprano,50,AN,YZ67390QX,1247.28
+Sig.ra Caterina Battaglia,1,VI,JI65100VV,
+Angelica Trapani,46,MO,NP47776XQ,2415.70
+Edoardo Deledda,30,MT,IU89407FP,1803.34
+Nicolò Virgilio,91,VA,,526.94
+Stella Caruso,76,CR,VS47709BT,716.88
+Achille Martinelli,41,FC,MQ51080UJ,2157.30
+Adriana Coardi,91,MB,FH63936QC,1497.39
+Gianpaolo Turati-Tosi,38,,QV87555SK,342.81
+Livio Lippomano,41,GE,XT73977ST,1907.55
+Nicola Gibilisco,77,OG,RG32562RD,2663.14
+Iolanda Conti,54,VV,GV15927PU,1970.62
+Panfilo Magrassi,58,CT,IQ61715TG,1663.70
+,33,SO,GM08021VQ,2576.63
+Ilaria Bonanno,39,SR,CU08691AP,1095.39
+Donna Iannuzzi,,PN,DL12112KE,1932.47
+Romina Rosmini,83,PC,QN97306GZ,1211.41
+Susanna Venditti,71,AL,BO73522IT,1439.95
+Angelina Spanevello,43,MS,CB09594EQ,421.54
+Gelsomina Muratori,78,IS,KD12610WA,1495.01
+Pomponio Caruso,99,GR,DY30761YP,1804.08
+Severino Malipiero,69,AT,LE85086VE,1041.00
+Sig.ra Gemma Castioni,72,MB,MD69685ET,2107.84
+,60,SV,DW91498MY,2084.91
+Stefano Pirelli-Romano,35,RN,ZD61233QX,211.73
+Matilda Dandolo-Sauli,42,VA,LR68002DL,1785.78
+Ansaldo Majorana,51,GO,WA96364TM,1102.88
+Donatello Tuzzolino-Longhena,82,,NH30293UG,900.21
+Lamberto Proietti,21,BT,LL86437XA,1914.02
+Annalisa Ficino,83,NU,RT31264WI,1799.40
+Sig. Elladio Mozart,55,CA,MW41119QR,2346.05
+Gianfranco Soprano,50,AN,YZ67390QX,1247.28
+Guarino Condoleo,51,NA,EY05284VI,1866.73
+Filippa Strangio,77,AT,ES32798DN,1188.11
+Cecilia Tosto,43,BR,OG97722RS,1193.78
+Dolores Petrocelli-Filzi,55,AR,IX60466WR,624.04
+Gelsomina Trapani,14,AV,DF45794LI,1340.18
+Paride Longhena,56,PU,CJ89774GX,
+Gino Gemito,67,AV,GD37068JF,811.98
+Sig.ra Rosalia Trillini,39,OR,AN33072ZK,2107.96
+Alina Tiepolo,20,MO,RT24161TU,2952.31
+Filippa Mantegazza,37,BT,IS46988RG,2058.29
+Caterina Comeriato-Bandello,6,MS,RS03009VT,1444.24
+Gianfranco Tarchetti-Eco,21,AP,QM71825WH,728.26
+Evangelista Biagiotti,7,CI,FB57763UA,1730.26
+,27,NA,QY18859AD,1074.52
+Calogero Trebbi,98,SA,PW35122BN,950.56
+Luciana Ortese-Carriera,87,PG,TK13639WI,922.89
+Toni Renault,21,FC,DW86839AW,1013.36
+Salvi Barcella,29,BS,WB53040BX,1541.38
+Sig.ra Isabella Rossetti,64,VB,GO05503VP,2311.75
+Rita Camanni-Pietrangeli,91,PU,ZP96719AS,2483.88
+Ugolino Zoppetti,60,MB,TA04081DO,753.79
+Sebastiano Filzi-Babbo,65,BR,YU27111KM,1269.68
+Rita Zanichelli,81,,KH43532VW,2145.32
+Dott. Gioachino Missoni,18,TE,RH94796VC,137.61
+SanTe RiENZo-MONDUzzI,-3,BS,ZY57203HA,1559.08
+Sig.ra Alina Borromeo,62,VV,DV17445QR,3084.23
+Graziano Fagotto,40,CN,LV92423NX,
+Dott. Romana Maspero,6,FR,YH28583HS,526.13
+Benedetto Magnani-Rocca,31,LT,IQ15850XS,-138.60
+Dott. Giosuè Gullotta,22,MO,KG14586HF,1038.22
+Sig.ra Ida Tomaselli,77,CL,MJ44462LV,1496.07
+Sig. Leone Alfonsi,64,RM,VP06462CK,2423.01
+Giosuè Luria,20,CS,XC14464ND,1239.64
+Rosina Sanudo,38,LE,VU33200JW,3229.84
+Domenico Rusticucci,99,AG,KR36451GR,1288.63
+Bartolomeo Durante,41,MI,KI96482QY,624.68
+Gianmarco Ferrata,1,EN,CS98952MO,1206.34
+Sig.ra Rosina Fabbri,78,BG,BY42845TT,2347.79
+Gianluca Semitecolo-Passalacqua,52,VE,RB99059FM,
+Melania Scotto,-33,CR,EL61244JU,1453.52
+Eleanora Bonaventura,72,RE,LJ66631IJ,236.15
+Cirillo Verdi,54,MC,VR51096CA,894.75
+Dott. Fausto Sforza,93,BS,CF54661AH,1836.62
+Stefania Perini,81,AG,NO91312HS,1325.98
+Sole Vittadello,33,RA,GN66903KA,1531.28
+Erika Bossi-Gaiatto,76,PD,VS31976SQ,1551.85
+Cecilia Bonanno-Fantini,9,TP,EC96408ZF,427.15
+Carla Morandini-Rossini,65,EN,NT60447HQ,753.23
+Sig.ra Bianca Mercantini,33,CB,EH31889YG,1041.17
+Sig. Gastone Siffredi,53,,WI87466EL,1607.23
+Sig.ra Iolanda Giolitti,69,MT,VO35770AW,1765.66
+Stella Stein,54,MC,RW68313MN,201.80
+Vittoria Montanariello,52,VS,KH01755KA,
+Angelo Ossani,11,BO,JP29299GS,2639.26
+Diana Guidone,52,CO,ZF14633QN,1379.30
+Dott. Paulina Ficino,19,,NF26890TD,1230.99
+Patrizia Pirelli,2,BS,JU38474RS,948.28
+Gioffre Segrè,13,RC,MX58318NI,568.67
+Fiorenzo Tomasini,7,AQ,XU70812NF,
+Damiano Trotta-Prada,16,BN,XJ75657LD,2477.01
+Adriana Gibilisco,91,UD,HV95755ZG,2545.63
+Laura Grasso,61,,BW09957HH,1906.66
+Alfio Procacci,7,VB,GW45976HP,2300.78
+Dott. Rolando Ferrari,50,CN,NL78801GT,763.72
+Lara Bonaventura,58,BT,AK95948QQ,1146.43
+Marina Luciani-Ludovisi,31,PN,SI94697MW,1399.53
+Emilio Fantoni,59,FG,WM46994BX,1332.86
+Dott. Giulio Casadei,10,AN,WX61698KW,
+Guido Ciani,84,VC,MZ56885MU,2316.73
+Dott. Benito Iacobucci,93,BS,AU62547RT,771.69
+Arnaldo Giacometti,62,TA,XY08936ZK,2043.64
+Sig. Ivan Polizzi,23,BR,OV22126FX,2256.19
+Angelina Ginesio,14,MT,AR46969PU,866.20
+Federigo Greco-Palazzo,26,IM,AG68900GR,976.90
+Pomponio Bulzoni,,BA,US59962CT,566.57
+Ugolino Farina,17,,RZ66927SY,1811.89
+Amedeo Altera,45,PC,HK56768RN,1144.90
+Vincentio Morlacchi,97,PA,FT88383IQ,1361.42
+Edoardo Muratori,21,,JW19628TN,
+Cecilia Falier,2,VI,UB45021MI,2209.28
+Gino Varano,15,MC,YO74942HL,1917.27
+Sig. Pomponio Malaparte,70,RI,SD08071PB,1319.06
+Lucia Tomasini,4,BR,EV15433LK,2285.50
+Raffaellino Trincavelli-Favata,33,,TS54284CU,1114.25
+Tatiana Montanari,52,PC,PJ17765UM,1101.41
+Adriano Cagnin,62,MT,GS05206XV,1785.43
+Pompeo Scandone-Almagià,94,CH,WP56012XW,1285.88
+Dott. Tina Zampa,79,GE,PJ64561AN,580.33
+Letizia Garobbio,62,FG,SK48537YP,2361.39
+Sig. Arsenio Micheletti,5,SS,EZ21880GV,550.08
+Sig. Rembrandt Greco,17,FE,,1178.49
+Sig. Panfilo Gaito,30,BO,IK32767NL,1115.58
+Beatrice Rocca,55,LI,IE29075PR,-228.53
+Pierpaolo Pisacane,78,,OH00925CM,2870.73
+Gianpaolo Antonini,47,EN,JO42469YP,2087.19
+Dott. Vanessa Vasari,4,PZ,KR04809QW,2451.12
+Coluccio Moneta,98,TP,JU73311OZ,746.98
+Rossana Abatantuono,6,NO,SY80398FY,1912.81
+rOsA bERGoglIO,86,LT,RH11365WS,1710.23
+Dott. A. Torricelli ,14,VT,SM05260PQ,912.90
+Sig. Dario Guarana,45,FI,EN84681CI,1859.27
+Sig. Amedeo Salieri,11,PC,XQ64378IT,2100.60
+Vanessa Salata,51,SI,RK39137JH,1552.39
+R. A. ,82,PT,UG01821VW,1744.43
+Paulina Trillini,51,SR,RL27941KO,2926.43
+Silvio Panzera-Galuppi,58,SA,IP18081MO,2012.96
+Martino Sagese-Donarelli,3,CA,BC91886FT,846.33
+Atenulf Murialdo-Maggioli,29,IS,EV00589ZC,1960.94
+Rosina Nicolini,8,BG,BU77048FT,
+Sig.ra Lara Bignami,27,LI,ZU76629YT,893.33
+Aurora Ceschi,93,CB,SA01947XW,2004.73
+Liberto Versace,26,UD,QJ13822LD,877.03
+Coriolano Babato,66,SO,FD51827QC,1917.30
+Lazzaro Dovara,64,RO,YM59618GE,1008.93
+Mario Civaschi,91,AV,HF86982QE,383.89
+Sig.ra Michela Folliero,71,BT,NU42828AS,2179.12
+Milena Dulbecco,93,RM,RN67770KU,770.45
+Donna Fuseli-Mantegna,10,BI,,1524.63
+Sig. Sabatino Bova,65,FC,EG93589WS,1513.82
+Amanda Santoro-Ricolfi,52,CO,ZN99136OA,1901.96
+cASsANDRa mOndUZZi,2,BI,ON40850DG,944.71
+Rocco Costanzi,35,MI,LF09713ZO,1099.63
+Melissa Ceschi,98,MO,KN85916VS,-245.38
+,57,IM,HV13713IN,764.92
+Alfio Tartini,27,RM,LS46130JA,1165.02
+Giuseppina Comboni,84,VI,TF58867NH,2418.81
+Dott. Ruggiero Treccani,11,CL,SU55787RK,1467.37
+Augusto Scalfaro,90,Cz,DI42064AV,
+Monica Duse,70,GE,BG59263LR,1029.62
+Lisa Pignatti,98,TR,UD46567PN,638.67
+Claudia Bonino,66,,AK41923TF,
+Sig. Gioachino Condoleo,7,,TD06885GC,2046.34
+Arnaldo Soffici,16,CO,XT32058QX,1278.10
+Ornella Gussoni-Prodi,90,LE,FD81834ZF,1904.16
+Liliana Raurica,73,BZ,ZX37492NS,2120.06
+Napoleone Meucci-Caccioppoli,13,LO,SX32301BG,2014.17
+Paoletta Fittipaldi-Franceschi,50,CZ,EZ46351NB,880.54
+Liana Tasca,-55,BG,UC25473KM,1277.62
+Emilio Avogadro,98,EN,PN39366OF,476.63$
+Greco Lerner,28,PE,MT95412PX,1548.42
+Flora Iannuzzi-Emo,34,SS,RI35029FT,1582.36
+Dott. Bruno Trapanese,84,LI,LZ22438RF,1586.24
+,25,PI,TK95568BX,2608.87
+,64,AL,BO54388JL,512.08
+Gustavo Cavanna-Letta,72,MC,BH85813QY,2296.33
+Ippazio Luzi-Morpurgo,33,SA,HP38832NV,875.35
+Ermanno Prati,27,CI,RF35282NK,2423.70
+Susanna Sgarbi-Romiti,2,MB,IU33552TU,2514.80
+Dott. Francesca Crespi,65,BO,NU93414OA,1471.63
+Donatello Alboni,7,GR,XS71164AJ,2932.96
+Bernardo Trincavelli,12,FE,SV97280GJ,1225.95
+Tullio Romano,51,BL,NJ60391WA,1775.09
+Sig.ra Susanna Bernardi,36,BZ,TY21731JN,2127.06
+Nico Loredan,41,FG,UN64508JZ,
+Sig. Alderano Ruberto,55,VI,SX27234IO,
+Gianna Santorio,58,LO,IZ27751HG,1916.40
+Benito Garibaldi,98,AO,LP75051IG,1584.31
+Dott. Ivan Villarosa,6,SO,DI30999WP,685.06
+Imelda Zamorani-Golgi,65,PR,HU14172EF,2188.15
+Pier Foconi,13,RC,NH02938OP,690.01
+Nadia Palumbo,12,PI,IR13316BB,869.14
+Puccio Battaglia,83,IM,AW55247YY,577.13
+Nicolò Monti,6,SA,ED02822KZ,
+Dott. Paoletta Bragaglia,38,AL,La22593Ul,$2228.22
+Michele Nicolini,30,NU,UO81729YL,
+Ermes Camilleri,80,IS,SY31560JS,901.16
+Ermes Gualtieri,,UD,YM67166NV,2313.33
+Rita Tolentino-Tozzi,56,RC,AU44772ZE,1811.43
+Jolanda Pelli,31,VE,YS18974TY,1558.58
+Teresa Schicchi-Matteotti,29,VI,OT63934JA,1841.59
+Paolo Navone,17,FE,NU11244VZ,2448.75
+Bruno Beccaria,14,TN,JT65620SG,1886.91
+Jolanda Mogherini,94,TV,JC74576HN,1869.13
+Eleanora Cappelli,83,CO,TK95203KK,2363.69
+Elisa Mondadori-Comencini,44,CO,WC84256DM,1374.85
+Greco Santoro,5,TE,JQ90904RR,1177.99
+Sandra Catalano,29,MI,QA15225QA,1360.26
+Arsenio Fioravanti-Battisti,35,RE,FJ71297PT,1482.84
+Dott. Telemaco Necci,12,,KI18344MZ,777.81
+Panfilo Vigliotti,99,OR,CM24680UM,1065.12
+Filippo Zecchini,33,CN,NG49820NT,1192.19
+Milena Mantegazza,43,VA,NW45079KE,
+Teresa Aulenti,29,NU,VL88103RX,730.07
+Bruno Medici-Sbarbaro,19,FE,FH03675TD,2651.99
+Valeria Pininfarina-Querini,56,AV,CV40251GO,679.56
+Piergiuseppe Panicucci-Brunelleschi,94,BZ,GQ22124XW,1284.48
+Amleto Ziani,43,VA,WZ66265YE,649.48
+Alfio Bompiani,89,UD,LG37053CC,1803.36
+Giorgia Carullo,40,CI,LV59620NF,1471.95
+Geronimo Fagiani,66,RI,BY11472BI,1786.35
+Annunziata Parisi,41,CH,OI26353RP,62.22
+Delfino Ricci,68,LT,PJ86616VB,1142.69
+Ansaldo Murri,22,CS,CZ42350BX,1430.44
+Caterina Veltroni,67,MO,YN06046LH,1717.67
+Ubaldo Iacovelli,24,VR,CK87497LS,1715.33
+Gianpietro Anastasi,65,BI,UJ43165BK,1567.97
+Valeria Polizzi,25,,IX64118LC,1940.26
+Dott. Ansaldo Bergoglio,18,LT,TU96907WQ,867.60
+Tina Mercantini,52,CR,BL11769YL,2123.90
+Sig.ra Romana Brancaccio,43,OT,LP35708CD,1663.84
+Renata Bartoli,17,CS,GV35837BP,1807.62
+Mercedes Russo,96,RI,OY33746IJ,1394.93
+Olga Vitturi,49,MN,HI29112CE,2430.06
+Giovanna Perini,36,IS,KV01719JP,1439.77
+Sylvia Fittipaldi-Tartini,46,CA,PD70818ZA,491.73
+Rossana Sinisi,71,,VH38400DV,1220.31
+Renata Donini,36,CT,AB87295LB,2353.90
+Diana Bettoni,5,TP,CD29845RU,1220.96
+Arturo Panicucci-Cagnin,92,SA,EL57456RI,1431.73
+Natalia Tosi,75,VI,LS58743BH,2941.53
+Bianca Guarato,72,SI,LB69345PT,1565.98
+Sig. Coriolano Malaparte,41,TV,IF38842YN,1645.12
+Gianluigi Grassi,54,BT,TZ67256XB,1846.21
+Mariano Praga,99,BZ,KG38944QU,2306.27
+Pina Finzi,35,SR,YE31680GH,1061.96
+Giada Agostinelli,38,RI,GV46489EI,2223.10
+Sandra Combi-Sgarbi,1,RE,WD41326UT,808.61
+Donatello Cugia,84,CZ,OH47791DW,
+Gioele Cagnotto,56,RA,WY39430KP,2218.71
+Camillo Comeriato,49,RN,XT68969YA,1979.75
+Lina Olivetti,16,AV,RE21071FC,1175.38
+Roman Caironi,35,AV,RJ63915CD,2070.03
+Delfino Ioppi-Ligorio,40,FI,RC16662IY,2180.54
+Cirillo Prodi,-16,CI,WE01948SI,1560.20
+Claudia Scarponi,81,BL,DC34462ZY,1062.64
+Gioacchino Correr,78,VI,FF71651ML,1825.02
+Pierpaolo Bellini,1,VC,,1417.41
+Sig.ra Paoletta Zamengo,89,GR,CR51061BY,789.45
+Paoletta Biagi,45,VS,MA40304SM,771.86
+Fabrizia Franceschi,20,VC,LZ08885BX,1684.32
+Rosaria Catalano,72,AQ,RF71729GI,2443.76
+Alberico Carullo,43,CE,CI75242TZ,791.89
+Elmo Saraceno,89,MN,TM87519OU,2089.88
+Alina Turchi,4,TN,CA87605UP,
+Rossana Beccheria-Speri,36,BA,PB20363PE,957.00
+Ludovico Trotta-Palumbo,12,RM,PN38800DN,1854.22
+Carlo Coardi,88,TP,XJ04021ZU,1438.30
+Ricciotti Pietrangeli,70,RM,AS42264DC,669.44
+Sig.ra Natalia Iannuzzi,41,AO,KV87450OM,1257.93
+Sig. Sandro Geraci,60,RC,YG09133KK,$1043.69
+Lidia Lucarelli,2,RM,MP97886OX,821.75
+Laureano Infantino,84,AR,KO04214TW,1505.49
+Sig. Fiorino Bruno,52,RG,RK18850ZA,758.47
+Victoria Amaldi-Geraci,,LO,RV45695GX,721.05
+Temistocle Metella-Offredi,62,LU,VQ45109LA,1089.44
+Paloma Gargallo-Longhena,7,AT,QZ01119QY,1257.31
+Simonetta Sauli,23,LT,SR34365LP,1967.73
+Nicolò Muratori,15,,CT02460IC,1521.23
+Sig.ra Iolanda Gualandi,29,CE,HM10862PI,1907.95
+Sig. Achille Druso,75,RG,KD82891YU,1685.87
+Ubaldo Mozart,94,BZ,VJ49533KD,830.57
+Rodolfo Regge-Papafava,86,EN,ZW79230FA,
+Matteo Nicolini,53,RM,GN61039XS,2727.13
+Germana Valier,6,LO,UL63170ZB,2874.29
+Pier Piccinni,63,VV,UP41060CD,2505.30
+,96,GE,NG25288SI,1673.94
+,31,RG,GY43912UH,1624.87
+Viridiana Leone,63,FR,AZ08231IY,883.56
+jolanda CAMANni-zEttICci,93,VE,QT96646ZB,1511.39
+Rosina Seddio,11,AQ,XB14901QP,1899.09
+Iolanda Gozzano,64,CL,IE15679MZ,227.93
+Dott. Mariana Carpaccio,52,VI,VI81113OW,1194.45
+Baldassare Solimena-Bonatti,39,,YJ22158VZ,1980.63
+Angelina Crisafulli,57,SR,FL11909BE,2354.13
+Rosalia Valguarnera,16,BG,WT33487OQ,2649.08
+Annamaria Pace,62,VI,CU28165TR,916.08
+Franco Faugno,43,CI,QC53651UO,
+Elisa Gemito,98,TE,LH84347CG,2944.50
+Filippa Travia,65,LU,JM79938NI,811.49
+Martina Marenzio,22,SA,OA88111XU,
+Rosa Fo,28,TR,KW01744ZE,1960.75
+Cirillo Bellini,30,TN,VF24428AG,953.55
+Alina Gilardoni,35,AV,VY10099KG,1804.03
+Vincenza Borgia,81,BT,SZ48306ZR,2203.42
+Rosalia Toscanini,-36,BA,DI03722WO,878.39
+Clelia Gori,9,PD,QR29275FK,2406.53
+Giulia Rizzo,5,TO,BM48302PD,3229.39
+Sig. Gioachino Tomasetti,37,CZ,SW90915LM,792.75
+Silvestro Tiepolo-Rossellini,19,SO,KD78191GK,826.17
+Giorgia Galtarossa,24,VB,PY40241GM,1000.47
+Mirko Blasi-Viola,21,PC,UV05473AV,2270.60
+Liberto Bottaro,57,BZ,BE49863WT,2321.08
+Tullio Boccherini,27,RN,WK68375PH,
+Livio Vattimo,26,PI,AG39667JF,1306.52
+Teresa Contarini,50,UD,RY45259QV,461.24
+Annibale Bulzoni,93,AN,LQ04249GU,2335.58
+Benedetto Boldù,50,CS,NW95708NR,1537.24
+Vanessa Balotelli,,LT,AQ58501HO,1138.24
+Lidia Musatti,78,CB,ZH44409FH,$1989.85
+Eliana Ferrante-Valier,21,PU,JW99476KO,1074.56
+Fausto Giammusso-Costanzi,57,FI,GX05007CJ,784.73
+Giada Marazzi,25,VB,DN38402MG,2070.10
+Adele Nordio,42,MO,NH93265MS,1421.52
+Giuliana Gramsci,39,FR,XW55470KY,1081.54
+Dott. Sandra Villarosa,69,,KU96917DH,1369.47
+Sig. Patrizio Satta,70,VS,yE67850YY,2320.24
+Sig.ra Valentina Spadafora,47,EN,SU01290HO,264.13
+Clelia Trezzini,28,LE,JH96311IH,1782.53
+Giorgio Sforza,7,SO,HZ25676GD,
+Giacobbe Bertolucci,54,CE,NV31321AC,1531.29
+Lodovico Tozzo,64,TA,FB52492CX,1022.32
+Romina Barozzi,50,LI,NH88460AD,
+Tatiana Verga,34,AR,VO24379BO,1731.37
+Sig. Gianluca Giannotti,86,PD,PR96517ZO,
+Mariana Inzaghi,44,OT,QL42036WM,2612.50
+Donato Bellò,,CH,HX77973CS,-489.08
+Dolores Paruta,68,AG,MR40289FQ,2955.30
+Dante Tanzini,74,CE,GC88082LQ,332.62
+Paola Muratori,35,LE,QM10395MS,1152.77
+Luciana Cimini,22,PD,HO22727DN,981.83
+Daria Trevisan-Borsellino,21,MC,WI91372MJ,1280.33
+Eleanora Taliani-Riccardi,62,PA,WX15720IO,1042.73
+Sylvia Gibilisco,22,RG,FO25228KE,2387.36
+Saverio Littizzetto,69,PA,AC35856CQ,1684.28
+Federico Costanzi,66,MB,CX47304YH,1723.90
+Raffaella Salata,-86,AV,yC60899yZ,2562.45
+Arsenio Muratori,63,PI,DN50376MV,2010.59
+Vittoria Fibonacci-Bergoglio,80,PN,KD29247AE,2460.00
+Dott. Natalia Amaldi,93,FI,GJ90458IV,2471.20
+Pierangelo Abbagnale,68,AO,FQ60306YC,1905.66
+Fernanda Borromini-Ponti,,RO,WA22822RS,780.60
+Dott. Evangelista Moccia,40,PD,UK85459CL,1940.92
+Gemma Sibilia,71,TR,NX96646CB,1718.19
+Aldo Bandello,36,GO,PT86497SM,3284.41
+Orazio Fanucci,90,tR,WR66048TQ,1311.13
+Sig. Panfilo Pasolini,22,MI,XJ21336AO,1895.96
+Gaspare Pizzetti,29,BS,CK73246MV,426.82
+Teresa Gori,93,RC,MT47391QL,1349.95
+Lilla Antonetti,10,PR,BD19714IS,1937.17
+Panfilo Ottino,86,AO,GI28879FU,1301.67
+Adriano Boitani,18,KR,KY28243QU,1395.46
+Dante Binaghi,,GO,QK71676TV,1658.38
+Gianpietro Scarponi-Canova,77,CS,VR58863LY,1508.05
+Giovanna Zaccardo,12,MB,YX73958NA,1402.64
+Valentina Gemito,31,BR,SF23739FL,297.49
+Cristina Lucciano,29,RA,BF75972EJ,2754.36
+Hugo Regge,80,SI,HW65480DW,814.02
+Stella Ughi-Palladio,92,VI,AB58711ME,600.30
+Sabatino Ludovisi-Cattaneo,43,RM,KV25539EM,1840.47
+Maurilio Viviani,68,IS,RQ37119GF,2531.07
+Marta Chechi,3,AN,QQ79639BM,1462.58
+Ranieri Ferretti,99,IS,OF11444UY,1070.02
+Mauro Gioberti,29,CB,QR09915FQ,1189.37
+Sig. Ippazio Parpinel,91,PA,QK27307ZP,1846.02
+Jolanda Letta-Juvara,51,,OQ38049DK,2527.67
+Stefani Bonino,26,RG,YW89044KQ,566.18
+Dott. Fabia Saffi,3,TV,SV90394PE,2280.06
+Loredana Asmundo-Golgi,21,KR,LO53969YS,1654.69
+Giacobbe Dulbecco,40,PR,XR98448CG,1272.93
+Gino Comboni,4,VV,TZ01801ZL,1681.73
+Flavio Soranzo,74,,JP23895DZ,594.23
+Pierangelo Cagnotto,31,NA,SP86675UK,1830.75
+Paulina Cimini,2,LO,FB20888OK,1539.62
+Orazio Barzini,20,,VX98094RN,1814.86
+Romina Barcella-Mantegazza,88,VC,NL61636CX,346.16
+,28,NU,IW68596NR,3057.17
+Annamaria Dossi-Paruta,52,LE,PX20359UO,1595.89
+Dott. Monica Solari,23,BL,KV40882UF,847.19
+Lina Sabbatini,39,AV,XO08754YY,267.60
+Dott. Claudio Norbiato,,AR,JR60888UJ,1468.45
+Dott. Gilberto Columbo,12,AO,VE31053XS,2377.05
+Sig.ra Paoletta Dandolo,32,GO,EL61968OL,916.50
+Dott. Delfino Stefanelli,95,RN,KY03860IB,1808.89
+Dott. Graziano Botta,70,RA,SY04291BZ,1978.92
+Bettina Staglieno,10,CO,GR65962BD,2455.46
+Amanda Gibilisco,15,TO,JB24164YA,2873.95
+Zaira Porcellato,46,SA,OE04121KC,788.14
+Antonello Brugnaro,83,CR,WM69431VX,
+Giuseppina Dulbecco,83,BN,FI90104SP,
+P. Tomaselli ,64,SI,NY96206XA,2237.45
+Severino Alfonsi-Gucci,30,PV,,427.30
+Ansaldo Sommaruga,13,GO,BT55528JF,2205.00
+Lisa Treves,99,PN,QT15457XP,884.26
+Giosuè Alonzi,45,BR,OV18848RC,1382.83
+Goffredo Taccola,17,SR,ED19385UJ,887.56
+Germana Pasqua-Bonanno,79,TN,TE86786BX,935.51
+Donatella Barcella,78,CT,EY97107UW,1628.07
+Victoria Giradello,,FE,HU59784KJ,907.94
+Giuliana Carpaccio,28,PZ,,2032.44
+Camillo Cugia,,CL,XG04719WX,690.39
+Sig.ra Renata Morellato,4,TP,,1560.22
+Raffaello Segrè,23,BO,LJ60688BX,638.86
+Stefani Liverotti,9,VE,AP70224OT,1490.98
+Imelda Duse,5,CN,OI18836MQ,1362.77
+Sig.ra Susanna Manunta,67,SP,ZC11608LH,3102.08
+Ludovico Botta-Tosi,19,CA,PI42819CC,972.14
+Alessio Trevisani-Rossetti,57,LE,TH88919PG,1134.04
+Arnaldo Panatta-Paolini,93,,LV93560hD,2500.75
+Claudio Collodi,41,BL,UC27092VL,2258.54
+Sig.ra Donatella Corcos,96,CH,UZ05959BN,2088.75
+Eleanora Mortati,32,NO,XO30385ON,708.75
+Sig.ra Rosa Rizzo,37,BT,XP92871QB,843.33
+Donatella Ciampi,39,VC,IT19033IZ,763.18
+Piermaria Verdi,29,BA,PZ93957DT,2145.17
+Ermes Fagiani,71,,JH63764SE,1275.78
+Matilda Vasari,8,PV,FX93623WI,2431.88
+Emilio Taliercio-Franceschi,38,VV,MJ88160OA,2724.09
+Filippo Scotto,82,AO,HI47040RP,1631.91
+Michela Prodi,2,AG,CF90650CX,1235.52
+Eleanora Camilleri,59,VC,AX67267SM,2241.25
+Diana Gramsci,80,LC,GV27288QF,1671.29
+Cristina Pontecorvo,-50,BI,SM44417EN,1667.69
+Ruggero Argenti,45,TN,QB88560JM,1881.60$
+Benito Mercalli,88,CR,NS41187SP,2720.96
+Giulia Leonardi,96,VR,ES90697DH,2109.24$
+Raffaellino Gentili-Branciforte,29,BS,TB72047TL,2043.92
+Rolando Gozzano,7,AR,MW38859ZY,3176.42
+Amadeo Ricolfi-Piovani,98,AG,HY24075OQ,281.06
+Adamo Trussardi,84,,BD55615HV,-109.95
+Tiziana Strangio,17,OG,CW46964UD,372.27
+Toni Morandi-Monte,71,PR,HD64147SP,1740.93
+Sig. Pietro Vigorelli,83,CT,QF87038RI,2523.89
+Sig. Carmelo Barozzi,82,PR,JI48594ZS,1541.08
+Victoria Moretti,44,VT,XI40771ZS,-305.45
+Ivo Salvini-Andreozzi,89,MT,SD09067GK,1044.12
+Amanda Carducci,37,VV,VJ00793oK,1435.67
+Ignazio Mazzocchi,92,CI,,1759.85
+Ennio Tomei,99,CT,QE42425MW,3269.22
+Lauretta Salvo-Giannini,90,CO,DW99328KZ,
+Nicola Petrucelli,22,PG,QH64858QO,1729.00
+Angelina Chindamo,84,VC,,1896.02
+Isa Greco-Casarin,44,MO,TS54309EZ,2204.95
+Agnolo Caruso,38,VC,OM55836AW,2082.52
+Benvenuto Bignami-Zamorani,20,RN,DJ61677PW,1159.37
+Gianni Metella,24,GR,HW18396DQ,1747.03
+Laura Mazzi-Iadanza,92,OT,AJ70507HR,2157.20
+Alessandro Turchetta-Raurica,23,CH,CN05028XZ,2378.56
+Griselda Odescalchi,80,LO,EE28168KL,2048.62
+Romolo Bartoli,9,LT,YV48903BA,621.22
+Giuliano Ligorio-Venier,85,RO,HQ68301DK,267.44
+Giulia Mazzeo,64,TP,FX94191KD,2594.14
+Eugenia Adinolfi,85,AT,KK68433GX,991.71
+Dott. Berenice Pace,48,VS,QQ06092NL,2104.21
+Sig. Aldo Anguillara,14,,VY36715KC,284.04
+Clelia Broschi,42,,EB13746PB,$1487.97
+Natalia Onisto,53,PA,ts54086YL,888.51
+Iolanda Pezzali-Padovano,56,FR,IT62329TL,1536.43
+Dott. Adele Manolesso,42,EN,YJ70910SP,2452.05$
+,72,CR,ZZ43389VW,1475.01
+Rembrandt Luxardo,76,BR,YK78582IQ,794.30
+Agnolo Trentini,89,PG,OA34878LK,1603.90
+dArIo MiglIacCIo,55,PC,HS88639yI,1926.61
+Sabatino Vanvitelli,87,CZ,GG60575GW,2518.55
+Orlando Schiavone,26,TA,AP78633EN,398.27
+Stella Gianvecchio,94,PZ,OQ38766JU,1257.38
+Antonia Donati,74,LI,IF76291BR,1467.79
+Alfredo Zamorani,82,,II42575OK,
+Puccio Veneziano,40,LC,EM52730DV,1714.84
+Baccio Travaglio,68,RA,FC63588NG,1999.56
+Fausto Durante-Valier,60,MC,GE87532GI,1683.58
+Marcella Gori,18,AT,YL20334LV,
+Filippa Giannotti,71,BG,KZ52348CL,1372.76
+Barbara Marrone,31,IM,UI12435OP,1475.04
+Fiorenzo Salvemini,35,FI,FT56359GR,1514.16
+Achille Salvini,49,,VL53772YO,1834.81
+Erika Spadafora,77,CL,TD74541LA,1502.22
+Emma Bocca,60,PA,YU73868EL,1257.04
+Osvaldo Comboni-Asprucci,86,PT,EP53135YK,2790.70
+Valeria Grossi,58,SP,KZ35088YD,1536.42
+Cristina Ferragamo,16,AO,SU83897LC,1538.82
+Giacomo Mennea,84,MI,WB67454RY,1138.17
+Veronica Pigafetta,98,OT,JD80798CS,1777.34
+Nino Guinizzelli-Interiano,92,PC,XU75379HS,2580.38
+Martina Caironi,89,BG,DC99699QC,1201.21
+Loredana Missoni,11,BN,RD08733EY,1444.62
+Benvenuto Prada,32,SR,EG97362AZ,701.11
+Alberico Fanucci,99,BL,WW95797AP,1155.50
+Ubaldo Puccini-Tanzini,95,SI,ZY66413RR,
+Gioachino Procacci-Zichichi,12,FE,QD26181UR,3018.02
+Ruggiero Iacobucci,23,VC,XK00392GT,1043.30
+Eliana Baglioni-Bragadin,68,LC,HJ09365IX,2047.65
+Augusto Perozzo,94,PV,IR32048OK,1265.98
+Gian Niggli,17,CO,NH98562MG,972.57
+Bianca Pistoletto,-78,PT,ZD61145FX,165.87
+Oreste Papetti,83,PU,XS97585LP,1314.81
+Lamberto Giannini,2,FM,SY31887RR,-69.39
+Giacinto Ritacca-Beccheria,76,VI,FT61580BA,1271.70
+Sig. Marco Gabba,57,MS,UU49313EM,
+Giada Gaiatto,51,VV,QV28047HW,1958.68
+Annetta Giunti-Donini,76,AL,HS31186QH,1534.53
+Gianluigi Pepe,49,CA,CV43600NM,553.92
+Martino Battisti,63,AO,CO96904OL,957.63
+Carla Puccini,94,SP,OJ00424DR,1712.60
+Amalia Speri,65,LI,AI41587AK,1519.84
+Irma Cimini,36,AT,TV01429XC,1530.90
+Angelica Zaguri,13,MO,OP65130GN,1971.03
+Lucia Antonioni,41,SO,SM01349BP,1403.48
+Martino Tommaseo,8,PZ,XH68495BR,780.43
+Vanessa Antonini-Goldoni,65,SI,EB52844GT,2655.55
+Gelsomina Cortese-Liverotti,60,BN,ZC15100QG,1795.54
+Iolanda Calvo-Bellini,66,AR,FE79843AB,2192.04
+Gionata Delle,28,RO,OO46145WQ,-412.45
+Ignazio Malatesta,7,ud,QH16345KS,2062.50
+Agostino Russo-Ammaniti,45,GE,LQ81560VK,396.60
+SYLviA PoNtI-MoNDAdori,68,OR,HZ19944BG,2387.89
+Pierpaolo Disdero,79,AR,QE19136CB,850.91
+Amleto Pugliese-Bandello,20,PV,TX94121PO,2182.20
+Gianfranco Panatta-Rismondo,12,NO,QO24344HD,963.17
+Laura Boezio,87,MB,,1659.56
+,54,En,CQ96686IU,1847.29
+Dott. Rossana Ungaretti,,RG,QN55812NZ,2042.40
+cARolina ferRetTi,94,CN,EP08407YH,1687.07
+Maurizio Turati,86,TS,II90232IE,693.24
+Pietro Cabrini,95,VS,AP40183PF,2902.90
+Griselda Berrè,16,PU,LL57543NF,
+Marcello Pucci,33,LU,QY89656ZZ,2285.34
+Maura Argentero,61,LE,DF68913EG,1480.57
+Gian Nicolini-Giannotti,29,AL,NK27383MC,1990.57
+Sig.ra Marissa Pietrangeli,67,MO,DF01004LI,2224.07
+Sig.ra Claudia Bertoli,24,FR,QB86781NX,2389.84
+Dott. Stella Renier,57,PI,MW57660ZG,1962.40
+Sig. Guido Pizzetti,85,BN,SS02019HT,
+Sante Ubaldi,83,LO,PG07838YX,614.59
+Erika Fabrizi-Benussi,5,CS,PN54363PH,1245.83
+Patrizio Manunta,76,AO,KT02647OB,1245.46$
+Alderano Montesano,44,TP,GG79296PY,1690.31
+Zaira V. ,97,MI,IZ38683QF,1700.14
+Daniele Ariasso-Grimani,84,AR,CO57999DG,2869.62
+Marta Stein,53,LI,LG56732DQ,1440.93
+Agostino Romagnoli-Canova,83,,QR27891RX,2044.83
+Alessia Antonini,56,MT,ZR78532KR,1442.02
+Sergius Soranzo,95,NU,BV26292QN,1484.18
+Serena Mondadori,93,PV,MS43323QX,1892.79
+Durante Serlupi,34,,TP62685QH,2686.20
+Antonina Speri,70,KR,LQ10124OR,2453.22
+Antonia Fracci,5,VV,FZ40171LO,
+Rosa Armani,72,BL,SM76091LC,1064.70
+Dott. Angelica Cavalcanti,70,,JI87614BN,1497.21
+Franco Bevilacqua,98,NA,HW81087HE,1948.16
+Ottavio Visintini,93,PZ,ET57809NI,68.10
+Annamaria Castioni,76,EN,NT20380XR,2019.72
+Alderano Calgari,55,IS,FI52217VY,1981.82
+Pina Alfonsi,86,SA,MK53027PO,2486.17
+Romolo Grifeo,56,LT,JP65282UO,1651.54
+Vincenza Bianchi,73,CS,LF88474ZO,107.40
+Annunziata Jacuzzi,94,GO,HS67626SH,2178.98
+Paloma Smirnoff-Tartaglia,75,CT,JB01492HP,2097.12
+Adamo Filippini,52,,OK16966DU,1513.88
+Marta Pascarella,21,PD,EB69235QE,939.91
+Matteo Bragadin,99,SI,TW73554II,1873.88
+Rita Ricolfi,82,RI,US69598SP,2149.34
+Teresa Tognazzi,60,KR,SH58435AP,1874.94$
+Dott. Napoleone Scarpetta,-89,BA,CN18968YN,1281.19
+Bettina Ramazzotti,89,AT,TP09470HB,1025.40
+Sig. Fredo Mezzetta,97,,WY59287FN,1024.59
+VIRGinIa tAMBUrINI,67,PR,VY92762HV,524.08
+Martino Errani,15,VR,BE04008WQ,2412.88
+Franco Alonzi,,NA,IF22623UT,1503.01
+Dolores Pepe,46,GO,SD93311VS,1906.71
+Giustino Nugnes-Beccaria,,BN,XD16551WA,1918.73
+Dott. Giuseppina Staglieno,31,FM,OQ60102GO,1685.32
+Bettina Rismondo,85,TR,TX92603QZ,3154.29
+Teresa Valier-Novaro,1,FM,UI33436WV,924.01
+Gioffre Bassi,36,CH,QJ41884QE,
+Valeria Travaglia,9,AG,WC04123ZU,539.92
+Francesca Russo,72,,EJ95420CW,1702.29
+Sabatino Branciforte,15,IS,CC78478CK,578.82
+Lucrezia Lombroso,4,PO,EZ49298OR,2199.26
+Dott. Laureano Lanfranchi,32,PA,EM01605KQ,2844.09
+Giampiero Anguillara,58,CN,GH97328JN,1139.59
+Ugo Romagnoli,71,BO,GY41873DL,652.86
+Ugo Cuda ,24,MB,XC61295MH,2140.86
+Tatiana Ferrazzi-Terragni,16,SP,JA47825LI,1965.69
+Ottone Priuli,60,LU,ZL91998NM,1403.19
+Paola Chittolini,25,RN,MZ69624TV,1743.15
+Dolores Fantini,66,GE,IW96635GC,775.81
+Marta Montanelli,45,VI,HX58501MP,2576.54
+Evangelista Paruta-Emo,23,UD,UR10539VH,1869.98
+Graziano Falcone,55,BL,AE41069WU,1898.79
+,5,FG,CD77179YE,
+vIrGINIa alTeRa-nOsigliA,82,AQ,TQ93479ZP,1525.83
+Gioacchino Foconi-Viola,82,CI,RU09395TR,1137.52
+Liliana Monicelli,85,LC,OO19863WG,1286.04
+Maurizio Calarco,12,CI,ZN86042DN,1216.37
+Concetta Pertile,38,PE,OF08357CD,996.64
+Jolanda Parmitano,28,CR,BE09562FQ,1017.69
+Agostino Balbi-Buscetta,38,NU,MH63926CX,1087.46
+Virgilio Ceravolo,31,IS,EK37491QB,2302.63
+Adele Balbi,94,TE,JN71190GW,2774.63
+Torquato Guidone,58,MB,WQ88523WC,1751.22
+Chiara Mascagni,14,,RC41822IE,1965.20
+Gioele Cortese,63,,YE12543ZZ,1263.45
+Antonino Cuda-Filangieri,91,AQ,UP91286TH,824.41
+Carolina Iacobucci,7,VT,FU26183JO,1698.15
+Valentina Longhena,10,LU,RT09511HV,2426.17
+Dott. Coluccio Jilani,69,RI,ZD35685UY,1220.19
+Federico Ritacca,12,VI,QP50463AA,1920.65
+Michelangelo Tamburini,69,TV,OU78737CC,757.47
+Jolanda Virgilio,26,AN,VW02380FR,1685.59
+Dott. Ruggero Ludovisi,,MI,KB26509AL,1601.81
+Dott. Aldo Roth,3,CO,XP92893YA,2118.49$
+Dott. Ilaria Greco,95,NA,DN47528FQ,392.45
+Nicoletta Pace,85,MI,YK63309SV,2230.50
+Ottavio Antonucci-Ostinelli,87,RE,WR59033YO,1421.64
+Enzo Proietti,55,nA,AC21148XB,2319.16
+Flora Varano,11,PI,CD81302UW,681.54
+Rossana Tarantini,93,VB,SA50154JW,1877.38
+Tiziana Pisani,46,VR,TC12558WD,1050.91
+Tonino Corbo-Gualandi,18,VT,Ay88986xF,678.19
+Dionigi Silvestri,,BT,SB74961HV,957.02
+Dott. Alphons Rosiello,96,TP,KB65161QE,1064.46
+Griselda Bajardi-Bosio,7,TE,XF37975XQ,853.19
+Atenulf Gualtieri,61,IM,BC73137OL,2725.02
+Raffaello Pigafetta,48,,PO15112WY,1951.23
+Gionata Comolli-Prati,97,CA,PY34915SC,1731.35
+Orazio Lovato,75,LI,IS30866OT,2589.32
+Dott. Azeglio Corcos,99,FR,ET49583NV,1168.35
+Paolo Brancaccio,14,VC,MG65394UG,1788.99
+Massimo Cannizzaro,55,MS,WS84876UY,1720.00
+Patrizia Turchi,9,PN,UQ02430DS,1623.72
+Greca Tarantini-Argenti,75,CR,BS19014SO,719.97$
+Stella Maffei,,RA,IL42031HZ,2010.38
+Leopoldo Pertile-Battaglia,11,VA,oH03154Gt,1681.26
+Imelda Mazzocchi,73,,YQ39486XC,1562.51
+Camilla Vezzali,49,SA,KW20870QW,1516.03
+Sig.ra Donna Nugnes,72,CT,YT52047HM,2254.33
+Leopoldo Praga,44,VS,FA10537GZ,1541.31
+Giuliana Lopresti-Calbo,61,BN,YC16054IO,2108.36
+Loretta Adinolfi,75,LU,DP26562PX,1806.12
+Sante Murialdo,15,PR,MG69532CK,$2329.00
+Liana Pascarella,8,IM,HC11067ZT,2174.82
+Pier Brunelleschi,59,CE,WA82151JQ,724.22
+Giorgio Sismondi,90,CO,TN07379AN,925.70
+Sig.ra Annamaria Tedesco,33,TO,YC18215BB,2129.53
+Fernanda Cammarata-Scotto,19,MI,FG36443LU,$1501.44
+Rosario Bova,56,PC,XQ28971VJ,2658.77
+Dott. Gianfranco Foletti,47,PR,HH04197ZI,2382.79
+Marina Bocelli,31,PU,VN92151GN,59.70
+Benito Comolli,36,BS,VL86790MD,1000.50
+Sig. Arsenio Marenzio,19,TE,AZ87752ZZ,1861.23
+Greco Togliatti,42,MI,OG10363GN,1714.57
+Annibale Curiel,85,CZ,JW86927WT,1795.86
+Cristina Pacillo,1,LU,IB85087FP,1744.74
+Silvia Gozzi,93,AT,TD91484ZK,1701.47
+Dott. Ubaldo Vasari,88,CR,RQ46295RL,2852.52
+Dolores Rossini,93,,LD85766AJ,$811.27
+Griselda Dibiasi,14,CI,CD04253RN,1988.21
+Sig. Ruggero Caffarelli,4,VB,HZ24736NL,1013.55
+Sig. Gabriele Meucci,61,LT,FR74607DF,1180.87
+Emma Abate,11,CT,LS98449JS,2129.99
+Camillo Majorana-Schicchi,47,FG,PA49387RE,291.77
+Annetta Gasperi-Guarana,79,MC,TJ16858TB,2142.52
+Sig.ra Giulietta Lanfranchi,65,GO,NO92902EU,863.94
+Ermes Gullotta,19,CT,GK58184WC,1742.78
+Gabriele Verdi,55,VI,PB09540VV,1888.12
+Lucia Zaguri,69,OG,IF79918AV,2657.09
+Elmo Badoer,10,OT,UE94629WF,491.55
+Annalisa Falloppio,64,RI,TC09015TE,1857.90
+Dott. Michela Greggio,34,TV,HY70944UP,2773.04
+Vittorio Cavalcanti,97,TS,PO63747JG,1953.72
+Fiorino Regge,81,LO,,1057.47
+Mercedes Roth,58,IS,WO66033RV,1964.88
+Nico Curiel,9,PN,GK01851Ap,2970.17
+Sylvia Pederiva,37,PU,ZU38488UV,1858.66
+Nadia Sorrentino,61,LU,HB41022CC,
+Dott. Adriano Argan,94,AG,TO32470CQ,
+Dott. Enzio Giovine,6,CN,VX43592WR,935.82
+Maurizio Ferraris,92,FR,AZ75960XY,1433.60
+Annetta Dibiasi,7,BG,LU81167WL,1160.80
+Sig. Adelmo Mondadori,94,GO,YH39543LI,1315.89
+Danilo Ritacca,61,FC,GJ62903OY,1964.13
+Sig.ra Natalia Riccati,7,CA,FW77518YG,2328.19
+Rita Luna,26,AP,DP85986KS,1228.98
+Patrizio Rossini-Majorana,46,MS,SE32954ZY,840.11
+Dott. Alberico Luna,44,CI,,1140.54
+rodoLFo BOIto,23,SP,RX18950IZ,1122.06
+Sig.ra Stefania Carli,66,MC,AR83386PZ,1993.08
+Nino Trezzini,27,PO,PG95537RF,2119.45
+Arnaldo Sonnino,79,AQ,LV74013NT,381.38
+Enzo Tacchini,58,AP,OG31751RL,1414.75
+,49,LT,XW90522OJ,2768.73
+Liana Verri,70,PC,NO27728JO,865.44
+Calogero Nibali-Dellucci,28,TV,QJ52021GG,1105.77
+Tiziano Moccia,75,FM,OZ61932EO,2229.48
+Lazzaro Ludovisi,18,LC,NO48009DJ,1201.60
+Dott. Valerio Pagnotto,82,GR,ST42933QE,1902.34
+Ornella Sagredo,95,PU,QB98810JE,2349.98
+Dott. Annunziata Brunelleschi,34,AO,,1601.13
+Rosina Bernini,15,PA,WV15998KF,695.43
+Ludovica Mimun,96,VS,RL34322PH,1724.08
+Flavio Zaccardo,86,BT,KB83300KG,1797.21
+Sebastiano Draghi,79,BO,RQ57488MR,925.19
+Dott. Dina Necci,39,MT,WA59374LO,1108.38
+Licia Binaghi,62,EN,UY80534GA,1379.95
+Marcella Nicolini,36,GE,KH30456UJ,1461.14
+Letizia Venturi-Mozart,63,,FS49812RR,1507.42
+Dott. Bartolomeo Dossi,72,FR,RB98262MK,2370.39
+Alphons Pizzo,56,PU,GO33135CN,2583.00
+Giorgia Stradivari,12,FG,CU89065KV,768.02
+Gian Filippini,31,VV,TR04477CW,2009.72
+Dolores Marazzi,37,RM,VF57571QB,2392.02
+Gianluigi Michelangeli,67,PG,AO53884HY,2227.81
+Loredana Galiazzo,15,VS,TN47024TG,1494.66
+Gioffre Gregorio,31,VV,TD47300NH,1494.38
+Anita Solimena,94,OG,UJ10627IN,2300.67
+Silvio Marenzio,2,SO,QD60535KO,1561.93
+Giovanni Greggio,43,CO,ND89985UU,$1185.61
+Sylvia Bartoli,12,,RE25833MQ,1019.62
+Alphons Travaglio,8,TP,MH67870SY,392.87
+Flavia Chechi,,AL,RI63283RO,1080.15
+Bruno Spinelli-Falier,1,BO,UL60581IO,1818.55
+Mariano Casarin,38,CL,VJ75553NO,1599.49
+Marta Lucchesi,64,PC,EV29282QK,390.01
+Mauro Michelangeli,2,CZ,XQ93505LV,1207.57
+Coriolano Petrocelli,60,GR,SF99689XA,284.28
+Licia Vivaldi-Battaglia,56,CA,ON27727BM,1106.71
+Maria Ruberto,74,OG,AU48749FI,1827.73
+Alina Bianchini,92,MS,YI10888AE,2343.77
+Etta Borzomì,,MB,CJ13721JL,2000.15
+Federigo Ceri,22,PU,TZ89903MG,
+Antonella Valmarana-Finzi,48,RA,XG04916DG,872.63
+,16,PR,HJ51568LZ,1726.90
+Dott. Michela Boccherini,83,LO,IJ98362AS,1999.52
+Baldassare Brambilla,21,MN,RQ24187IC,1846.08
+Filippa Paoletti,77,CO,PJ38142IT,$1841.42
+Galasso Berrè,19,AO,XC51002CU,1527.66
+Ennio Luxardo,93,BL,QD41219NO,1399.33
+Roberto Ortolani-Piccio,89,CR,DG92402SG,
+Vincenza Valguarnera,-95,RA,VR21164MB,835.60
+Oreste Gussoni,34,GO,FE14913DQ,2828.93
+Natalia Curatoli-Lupo,75,FR,QR60613HH,533.21
+Vito Pizzo-Finotto,93,GE,RZ12556BR,1617.92
+Ivo Simeoni,74,CS,HC09379HN,2944.56
+Maria Seddio,61,,KG83899CO,1035.34
+Sig. Agostino Filangieri,94,BZ,HO80679JA,2155.12
+Nico Nicolucci,12,KR,YM83745UK,1873.70
+Simonetta Parini,83,CE,FS32621QB,1148.71
+Dott. Annetta Tozzo,23,Fi,AK02788CP,1486.21
+Sig. Arsenio Ferraris,43,AL,ZY77126YY,1567.62
+Ronaldo Galvani,62,MC,BJ99156AA,930.30
+Fedele Grossi-Coppola,53,BL,SD14579FF,1860.47
+Imelda Pincherle,6,MO,NI13259NI,1350.29
+Saverio Bocca,4,PC,ET37202OJ,2595.68
+Daniele Nicoletti,90,TN,YN88479WT,895.66
+Filippa Gualandi,1,RC,RM08430VA,2062.34
+Alberico Corcos,17,OT,AI22904CG,1966.94
+Annetta Sabatini,,OR,MI82722MN,1550.87
+Natalia Roncalli,97,OR,WN33004NG,2127.09
+Dott. Natalia Gigli,34,LU,LQ76297LR,1384.34
+Barbara Odescalchi,52,SA,RZ97176AY,1827.15
+Gioffre Zarlino,65,VR,LF70958LO,1009.49
+Benito Sonnino,62,CI,SM91173VC,1186.80
+Carla Roero,83,MI,NG69701CN,1019.83
+Giancarlo Celentano,99,LC,,1470.76
+Agnolo Rosselli,90,FR,KB94595RK,2291.12
+Aldo Finotto,52,TP,VA54292QL,870.48
+Paoletta Gozzi-Nicolini,79,PE,XA82250EZ,1625.95
+Rembrandt Chiappetta,21,NO,UE62650VG,739.25
+Adele Bembo,92,VC,OG40949QK,2406.81
+Cesare Orlando,53,PN,KK29751ZM,
+Cristina Borzomì,65,MI,TY60821RF,1202.31
+Melissa Morgagni,9,LT,SH43550WB,1620.66
+Monica Respighi,83,MO,LA27032PG,1469.36
+Renata Fiorucci-Roth,88,BO,IK51683BM,3233.43
+Antonino Oscuro,92,NO,CB05394IX,1050.69
+Giulia Botta,91,Ri,ID64119CC,1554.74
+Aldo Trevisan,51,RN,UV00800LA,1546.53
+Alfredo Finotto,36,PO,OD75437AI,831.15
+Nicola Poerio,28,CE,WQ56814LH,1532.48
+Romina Casalodi,51,SR,AD30299BD,2819.01
+Rodolfo Fantoni,41,MC,JH91831XP,1158.83
+Dott. Alphons Vergassola,29,RC,DX19672PR,2570.92
+Rosario Antonelli-Benedetti,62,VB,EL21232DR,1639.99
+,37,,MC78812OS,1283.44
+Sig. Ivan Matteotti,49,SO,NM30250DN,1047.62
+Tonia Telesio,,BN,BK35543DB,311.94
+Nanni Giannini,93,VS,FB71553UK,2060.64
+Milena Pignatti-Villarosa,71,,Mj97216JM,993.99
+Sig.ra Annalisa Babbo,44,BS,IN62748OF,438.47
+Fulvio Sobrero,68,VT,XT26215NA,$1622.50
+Fiamma Accardo-Florio,67,TA,HQ62256BT,1435.16
+Ninetta Marzorati,50,FM,HU29578ZQ,
+Dott. Lidia Morosini,25,CZ,,493.98
+Monica Galuppi,37,MO,XZ75853QO,1992.35
+Anita Nosiglia,86,SP,NR92731NA,1242.72
+Luchino Gualandi,61,NO,LV44964CZ,1215.26
+Giustino Guariento,61,,SG95362JI,1475.04
+Mirko Piazzi,51,TV,NC83716LO,2134.44
+Silvestro Pietrangeli-Segrè,15,VC,MR05526PQ,1659.67
+Luigina Montesano,60,AT,FO85443AK,1899.05
+Piergiorgio Fibonacci,65,PZ,FT07120GK,1077.34
+Federica Branciforte,45,BS,SO80222QR,927.13
+Simonetta Boaga,74,AP,IS26549ME,1421.34
+,22,FI,WP18902HL,943.41
+Loredana Montanari,38,PG,OE01109SB,2980.61$
+Sabatino Bruscantini,21,FM,BR90334TM,1238.00
+Lilla Tarchetti,22,MI,ID73577ZP,1283.06
+Dina Alfieri,76,PA,GC26936VN,923.57
+Camillo Spinola,1,FE,WR11658EL,$1565.38
+Sig.ra Paola Mortati,92,FE,JB11032CR,1915.33
+Sig. Giancarlo Fagiani,66,RG,ZT94850TR,
+Sig.ra Zaira Udinese,65,OR,WF30652FS,602.15
+Dott. Eliana Nicolini,24,CL,UD34106ZH,1988.73
+Sig.ra Aurora Palombi,24,TN,IA88757JC,1895.45
+Alessandra Mozart,14,LU,XN16675IH,2205.70
+Girolamo Bevilacqua,21,PA,AP14878KX,1027.27
+Enzio Comencini,61,SR,OI75806OW,774.47
+Germana Pignatti-Veneziano,65,OT,SK38787AQ,1876.79
+Donatella Morpurgo,8,GR,HJ27297SD,1868.42
+Adamo Amaldi-Sbarbaro,48,RO,VV72501IH,3219.01
+Dott. Mariana Leopardi,28,FI,DF94488PP,898.04
+Ermes Ferrari-Maglio,18,LT,QL56613ZG,1454.45
+Ilaria Maderno,72,BA,TT55936ZI,207.93
+Donna Mocenigo,35,VC,VO23993HO,1159.14
+Rossana Vecellio-Durante,51,SS,XT82674DC,1784.45
+Dino Lucciano,23,CR,QK85943EP,2349.05
+Sig.ra Antonella Monaco,56,MT,OC15433YL,1648.23
+Sole Giannuzzi,9,PC,yO07298VJ,1013.27
+Leopoldo Marcacci,95,GE,VZ37381JS,463.44
+Dott. Teresa Dossetti,21,MC,HR74045LQ,1841.50
+Dott. Raffaella Alighieri,77,PV,DV33338KW,2094.66
+Gaetano Vespa,99,TS,GI98578YF,2421.14
+Mirco Martinelli,42,FG,IE05358SI,1213.58
+Maria Tarantino,48,EN,BY52614WF,2842.70
+Sig. Costanzo Chechi,86,AT,RU20463YU,2471.47
+Monica Trillini,16,SP,NB49453YG,1017.11
+Costantino Malpighi,78,FG,DM68366RB,1336.56
+Dott. Mirko Gaito,90,LO,HG62730TZ,2285.94
+Serafina Tutino-Lombroso,28,FR,JU11811AZ,-682.76
+Lamberto Bonanno,50,TA,CG75818DJ,1096.67
+Eleanora Zeffirelli,25,SI,VF67268KR,1522.84
+Amico Tarantini,81,BS,MY91184BK,2144.93
+Marco Pisani,16,,JV75474FV,1335.57
+Fabia Falier,77,VI,FQ36063QC,1913.01
+Marina Grifeo-Trevisani,21,TA,FU80322IJ,1479.45
+Isa Boito,83,TA,NI91260LP,292.55
+Ernesto Acerbi,23,MI,LK40472FE,1604.90
+Victoria Paolini,18,CI,EB77193YV,381.88
+Adele Calbo,53,AL,DE69729HT,871.16
+Patrizia Viviani,9,RC,SI57639IJ,659.80
+Sig. Tonino Nicolini,88,MT,yE41659tM,1719.96
+Marissa Sinisi,55,TA,TG39575LA,1364.47
+Loredana Satriani,25,AO,ML47668GY,1258.85
+Sig. Ottone Branciforte,10,NA,QR60511CI,1810.45
+Ninetta Maffei,83,CE,FL30752TA,1725.65
+Etta Cavanna-Antonacci,85,BN,FB65979DP,2269.92
+Gino Monteverdi,62,GE,ZC41076OK,999.18
+Cassandra Napolitano-Cundari,60,IS,TE28012DF,2251.83
+Riccardo Sorrentino,87,,JY05963TB,1047.19
+Monica Bombieri,85,AV,MB24360DK,728.96
+Martina Modigliani-Cugia,43,VI,UA12006TW,1384.65
+,60,AO,PJ58108NR,2107.76
+Ramona Regge,17,VB,LI82677VY,1848.74
+Dott. Zaira Einaudi,24,EN,FB05098SB,1193.69
+Sig.ra Simonetta Tasso,22,TE,WK54311NR,1406.85
+Loredana Cuzzocrea,,,PS31158FC,$968.85
+Luigi Bompiani,55,OT,JX82752IP,2927.23
+viNcEnZa BaRaCcA-TrAETta,91,BZ,SM27421WO,1842.14
+Matteo Leonardi,29,AO,BZ93168QW,485.71
+Paola Veltroni,60,AQ,PQ31742OV,613.31
+Alessio Turati,10,CZ,HO74991UU,2250.34
+Silvestro Accardo,46,LO,CQ60077JT,758.17
+D. V. Argento ,62,SS,QP62098dn,803.05
+Milena Borromini,62,CE,XU85136BX,2569.28
+Ubaldo Scaduto,95,TS,FJ71740NJ,2154.27
+Sig. Geronimo Collodi,3,RG,HO04266MQ,1881.48
+,37,PT,EZ55333FV,655.58
+Luigi Cundari,14,MT,JL84905EB,1327.85
+Gian Rosiello,4,GR,IJ79454EO,2091.19
+Sebastiano Goldstein-Parini,15,LO,GX42754JP,1156.19
+Pasquale Dallapé,23,PC,ZL14635CS,
+Sig.ra Isa Turchi,32,BS,XR88179RV,1355.62
+Liberto Comolli,7,OT,FZ42819WK,2104.26
+,92,BR,RN17363DK,1062.69
+Flavio Magrassi,44,BN,QF95789UQ,1866.98
+Matteo Montanariello-Bernardini,,PO,DS16935HE,3403.75
+Martina Barzini,99,CL,PX61207CZ,
+Delfino Solari,77,NA,QS48984OD,581.47
+Romeo Mazzanti,92,AV,WF44611VB,1489.42
+Valeria Lucciano,37,TA,HF76327YB,1060.30
+Dott. Maurilio Toninelli,83,PA,YC51015DW,1153.06
+Angelo Luciani-Lollobrigida,53,PD,qJ72253XA,2363.55$
+Morena Nosiglia,40,AV,JP42439CD,1039.38
+Maria Armani,9,CL,RI47049EH,
+Francesca Ortese,74,VV,ZN79215ZY,1342.61
+Amico Baroffio,25,TA,LC47537EK,1418.72
+Arsenio Barsanti,64,IS,VZ36810UH,1146.48$
+Marta Conte,74,BR,LA82002XO,1925.03
+Elena Goldoni,16,,EL14597EP,1488.64
+Gianluca Pulci,1,BI,SJ85279DW,2380.22
+Elisa Mozart,9,GR,TD06473WK,2560.09
+Pierluigi Marconi,76,MN,MH05560LC,646.65
+Cristina Stucchi,83,FE,ZQ48939ZJ,246.45
+Ippazio Cherubini-Borrani,46,RG,YI58042AT,1920.56
+Azeglio Polesel,87,RC,SG88046OB,1245.37
+Armando Gabba,84,Vc,UJ77815OK,1328.30
+Fortunata Bragadin-Correr,56,BT,QT28536VA,2077.94
+Sig. Edoardo Giannone,9,BS,ML42159SH,1094.37
+Loretta Falloppio,63,CS,BZ59244MG,2465.99
+Aria Bajamonti,88,FI,EH98390KN,1202.53
+Michela Schicchi,64,,AN85347CQ,83.32
+Umberto Puccini-Bonaventura,,RE,BA50309PD,1215.90
+Dott. Paola Tasca ,53,VT,RV29011ZO,1766.30
+,34,AG,LO49018YA,1240.85
+Pomponio Bacosi,64,CO,YE23447SK,1332.21
+Matteo Tosto,12,VA,,278.08
+Camilla Taliani,15,CO,KQ79141WX,258.89
+Viridiana Trevisani,16,BS,XR70938YQ,1666.71
+Ansaldo Omma,60,FR,MP90804DE,442.66
+Sig.ra Margherita Guarato,21,MC,RT23333FD,1561.86
+Sig. Gino Comisso,66,AP,GP07450VY,1317.23
+Emma Palumbo,81,BI,BF52871CE,2960.69
+Rosalia Filzi,83,BI,GU54516XU,1712.03
+Luchino Montanelli,36,RC,VT78311GZ,2455.59
+Teresa Fermi-Rinaldi,37,RN,CP14883LZ,769.19
+Loredana Civaschi,41,AV,RJ80348IQ,1206.45
+Sig.ra Gemma Liverotti,46,TS,GJ31202IJ,
+Giulietta Stradivari-Palmisano,37,MI,HH90823TW,2067.77
+Ciro Lupo,90,RI,UQ71999YA,958.18
+Antonino Carnera,72,CZ,DD25638IQ,1662.32
+Gionata Pometta-Chiesa,87,CI,QJ07760BB,743.57
+Michelangelo Onisto,53,VR,RZ23174ST,$606.44
+Germana Albertini,24,BA,FA18479KJ,2580.71
+Sandro Valmarana,27,SO,EF26170JL,2057.25
+Gianpaolo Scamarcio,39,LO,DG91474KG,1870.01
+Paola Cammarata-Savorgnan,76,FE,PH24075RL,1488.84
+Monica Tamburi,,BT,JH26765EP,2214.04
+Gionata Tognazzi,45,RA,YX31992NU,2464.51
+Leone Navone,7,FI,DZ60500WH,2891.06
+Letizia Regge,86,FC,GV34829PP,1754.72
+Morena Almagià,72,CE,IE76811CF,882.14
+Daria Morpurgo,-29,BL,LE74645RW,673.19
+Matilda Soprano,12,FM,SE25324DM,1173.72
+Dott. Piergiorgio Marangoni,37,SR,TZ52869YL,1018.11
+Cassandra Pisaroni,16,IS,DG65471CE,1722.35
+Victoria Vercelloni,80,CS,QU23202QI,1211.77
+Ricciotti Fagiani-Nitti,69,VE,YZ01419IU,70.08
+Michela Pascarella,19,VT,RQ69725TI,1530.01
+Toni Fo,95,CO,BW73156VY,1571.26
+Dott. Gioele Andreotti,57,NO,TF68256SH,1809.96
+Baccio Gangemi,9,PI,PJ03887YN,2357.96
+Annetta Matteotti-Renier,61,PN,AY86460XC,1527.47
+Vincenzo Raimondi,88,RC,YB49481WQ,497.22
+Coriolano Gigli-Petruzzi,67,SI,FR30827DP,1933.15
+Zaira Cavalcanti,89,BN,PK25736OO,1452.50
+Elena Iannuzzi-Carnera,44,RN,JI40455WV,1794.76
+Dott. Amalia Treccani,97,,OD81302DB,1061.10
+,94,BI,CB18389HL,2086.92
+Guglielmo Simeoni,38,MI,UM97484EH,1732.86
+Costantino Zetticci,49,NA,FZ68149YV,1912.85
+Dott. Loredana Curiel,26,MT,at93205PO,1181.00
+Giulietta Fabbri-Bertoni,80,VT,CP30675LH,1482.83
+Alessandro Cuda-Santi,81,RI,SE00284UB,1791.92
+Dott. Melania Battelli,49,AT,GG52952PK,478.84
+Costanzo Trobbiani,41,BG,BE26336NP,2756.30
+Iolanda Porcellato,19,CH,WX12369NO,749.68
+Ivan Pareto,79,LI,AB40400QP,1751.37
+Bruno Ciani,-80,,KP41612WW,289.82$
+SIG. FRaNceSCO bRaNcIfORTe,39,,BN27089GL,600.85
+Nadia Abatantuono,55,AG,XD65190CK,1956.78
+Alphons Cilea,52,FR,CW41624CP,1900.35
+Liliana Finzi,10,PO,GL75968AX,2723.12
+Michela Pigafetta,48,RE,JI29363FU,1287.62
+Marco Tomaselli,,TS,TT61485HV,1610.97
+Dott. Fortunata Callegaro,48,CL,JY94807FP,2458.33
+Ida Martucci,39,RA,HQ71272UA,2072.04
+Sig.ra Cecilia Caccianemico,61,GR,KE98256QC,638.93
+Ninetta Tiepolo,27,SP,QW28285TZ,497.19
+Alessandra Agnesi-Camanni,83,,OZ29764ZG,1254.20
+Dott. Caterina Salvemini,,LI,OH35676UQ,1953.46
+Luisa Canil,86,MS,FV37871OT,1965.11
+Viridiana Castelli,87,BT,FI39963VH,1154.85
+Letizia Respighi,89,TA,VR34852EY,582.30
+Dott. Mariana Pacetti,21,LI,,1440.75
+Torquato Infantino,69,VV,ES37853HN,1923.84
+Dott. Federigo Brunelleschi,89,VB,XR43446MJ,1985.86
+Renata Ferrata,37,PG,YY45221UK,1077.64
+Sylvia Baggio,6,CS,YT56321DW,2228.05
+Lina Gualtieri,59,VB,XZ53591AN,1636.25

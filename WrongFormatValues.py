@@ -6,7 +6,7 @@ import pandas as pd
 import re
 
 # Fields that need to be checked for misspelling
-FIELDS_UNDER_TEST = ["name", "provincia", "cie", "age"]
+FIELDS_UNDER_TEST = ["name", "age", "province", "cie", "money"]
 
 # Regex grammar constants for readability
 WORD_2_14 = "[A-Z][a-z]{2,14}"
@@ -26,8 +26,10 @@ VALID_CIE = r"[A-Z]{2,2}[\d]{5,5}[A-Z]{2,2}"
 VALID_CIE_DESCRIPTION = "#A valid CIE (Carta d'Identità Elettronica) starts with 2 uppercase letters, /" \
 "is followed by 5 numbers and ends 2 uppercase letters"
 
+VALID_MONEY = r"\d+(?:\.\d+)?"
+VALID_MONEY_DESCRIPTION = "#A valid money value has only numbers and optionally a dot to separate decimal digits."
 
-valid_province_codes = [
+VALID_PROVINCE_CODES = [
         "AG",
         "AL",
         "AN",
@@ -124,7 +126,6 @@ valid_province_codes = [
         "TE",
         "TR",
         "TO",
-        "OG",
         "TP",
         "TN",
         "TV",
@@ -140,43 +141,82 @@ valid_province_codes = [
         "VT",
 ]
 
+def valid_age(age) -> bool:
+       if not (age % 1 == 0):
+              return False 
+       elif age < 0:
+              return False
+       elif age > 122: #Oldest person in history
+              return False
+       else:
+              return True
 
-def check_misspelled_fields(row : pd.Series) -> dict:
+def check_wrongFormat_fields(row : pd.Series) -> dict:
         """
-        Checks for any misspelled values in the following fields: name, provincia, cie.
+        Checks for any wrong format values in the following fields: name, province, cie.
         Returns a dict whose keys are the same as fields and whose values 
-        indicate whether or not the value in that field is misspelled.
+        indicate whether or not the value in that field has wrong format.
         Missing values (pandas NaN) are considered to be spelled correctly. This is not the case
         for empty strings like "".
         """
         
-        misspelledFields = dict.fromkeys(FIELDS_UNDER_TEST, False)
-        misspelledFields["isMisspelled"] = False
+        wrongFormatFields = dict.fromkeys(FIELDS_UNDER_TEST, False)
+        wrongFormatFields["iswrongFormat"] = False
         
         if (not pd.isna(row["name"])) and (not re.fullmatch(VALID_NAME, row["name"])):
-                misspelledFields["name"] = True
-                print(re.match(VALID_NAME, row["name"]))
-
-        if (not pd.isna(row["provincia"])) and (row["provincia"] not in valid_province_codes):
-                misspelledFields["provincia"] = True
+                wrongFormatFields["name"] = True
+               
+        if (not pd.isna(row["age"])) and not valid_age(row["age"]):
+               wrongFormatFields["age"] = True
+        
+        if (not pd.isna(row["province"])) and (row["province"] not in VALID_PROVINCE_CODES):
+                wrongFormatFields["province"] = True
 
         if (not pd.isna(row["cie"])) and (not re.fullmatch(VALID_CIE, row["cie"])):
-                misspelledFields["cie"] = True
+                wrongFormatFields["cie"] = True
 
-        misspelledFields["isMisspelled"] = any(misspelledFields.values())
+        if (not pd.isna(row["money"])) and (not re.fullmatch(VALID_MONEY, row["money"])):
+               wrongFormatFields["money"] = True
 
-        return misspelledFields
-def list_misspelled_rows(df : pd.DataFrame) -> list[dict]:
+        wrongFormatFields["iswrongFormat"] = any(wrongFormatFields.values())
+
+        return wrongFormatFields
+
+def list_wrongFormat_rows(df : pd.DataFrame) -> list[dict]:
         """
-        Check fo any misspelled values in the followind fields: name, provincia, cie.
+        Check for any wrong format values in the followind fields: name, province, cie.
         Returns a list of dicts. Each dict
         """
         row_list = []
 
         for i, row in df.iterrows():
-                temp = check_misspelled_fields(row)
-                print(f"Row:{row}\t fieldStatus:{temp}")
-                if temp["isMisspelled"]:
+                temp = check_wrongFormat_fields(row)
+                if temp["iswrongFormat"]:
                     row_list.append(temp)
 
         return row_list
+
+def drop_wrongFormat_rows(df : pd.DataFrame, fields : list):
+        """
+        Returns a copy of the input dataFrame without the rows with wrong format values, 
+        which can be specified in <fields>.
+        """
+        for field in fields:
+              if(field not in FIELDS_UNDER_TEST):
+                     raise ValueError(f"{field} is not a valid field")
+
+        df2 = df.copy()
+       
+        for i, row in df.iterrows():
+              if "name" in fields and not re.fullmatch(VALID_NAME, row["name"]):
+                     df2.drop(index = i, inplace = True)
+              elif "money" in fields and not re.fullmatch(VALID_MONEY, str(row["money"])):
+                     df2.drop(index = i, inplace = True)
+              elif "province" in fields and row["province"] not in VALID_PROVINCE_CODES:
+                     df2.drop(index = i, inplace = True)
+              elif "age" in fields and not valid_age(row["age"]):
+                     df2.drop(index = i, inplace = True) 
+              elif "cie" in fields and not re.fullmatch(VALID_CIE, row["cie"]):
+                     df2.drop(index = i, inplace=True)
+
+        return df2

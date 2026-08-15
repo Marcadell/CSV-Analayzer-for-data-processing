@@ -31,7 +31,7 @@ class RowOccurrence:
         self._number_of_occurrences += 1
 
     def __str__(self):
-         return f"Row:{self._row}\t \n\nOccurred {self._number_of_occurrences} times."
+         return f"*"*10+"Row:{self._row})"+"*"*10+"\nOccurred {self._number_of_occurrences} times."
 
     def __eq__(self, obj : RowOccurrence):
 

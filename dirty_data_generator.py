@@ -1,19 +1,22 @@
 from numpy import random
 from faker import Faker
 import csv
+from decimal import *
 
 """
 Config vectors for dirty csv generation.
 """
-MISSING_DATA_CONFIG = {"no_name" : 0.2, "no_provincia" : 0.15,
-                        "no_age": 0.3, "no_money": 0.05,
-                        "no_cie": 0.1}
+MISSING_DATA_CONFIG = {"no_name" : 0.02, "no_province" : 0.05,
+                        "no_age": 0.03, "no_money": 0.05,
+                        "no_cie": 0.01}
 
-MISSPELLED_DATA_CONFIG = {"misp_name"  : 0.1, "misp_provincia" : 0.15,
-                            "misp_cie" : 0.2}
+MISSPELLED_DATA_CONFIG = {"misp_name"  : 0.01, "misp_province" : 0.015,
+                            "misp_cie" : 0.02}
 
-WRONG_DATA_CONFIG = {"wrong_name" : 0.1, "wrong_age" : 0.15, "wrong_money" : 0.3}
+WRONG_DATA_CONFIG = {"wrong_name" : 0.01, "wrong_age" : 0.015, "wrong_money" : 0.03}
 
+# A function that prints the probability vectors should be written.
+# The user should be aware of what are the chances for each value to be dirty.
 
 
 def roll_a_dice(probability : float) -> bool:
@@ -88,7 +91,7 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
     duplicate_cnt = max_number_of_duplicates
 
     fake = Faker(locale=faker_locale)
-    field_list = ["name","age","provincia","cie","money"]
+    field_list = ["name","age","province","cie","money"]
 
     with open(filename, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=field_list)
@@ -98,10 +101,10 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
 
             # Sample data
             name = fake.name()
-            provincia = fake.country_code()
+            province = fake.state_abbr()
             age = random.randint(1,100)
             cie = fake.cie()
-            money = random.uniform(1, 10e5)
+            money = Decimal(random.normal(1500, 700)).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
 
             
             # Name
@@ -113,11 +116,11 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
                 name = wrong_format_string(name, "name")
 
             
-            # Provincia
-            if roll_a_dice(MISSING_DATA_CONFIG["no_provincia"]) :
-                provincia = None
-            elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_provincia"]) :
-                provincia = misspell_string(provincia)
+            # province
+            if roll_a_dice(MISSING_DATA_CONFIG["no_province"]) :
+                province = None
+            elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_province"]) :
+                province = misspell_string(province)
 
         
             # Age
@@ -125,6 +128,7 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
                 age = None
             elif roll_a_dice(WRONG_DATA_CONFIG["wrong_age"]):
                 age = -age
+
             # Money
             if roll_a_dice(MISSING_DATA_CONFIG["no_money"]) :
                 new_money = None
@@ -134,7 +138,7 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
                 new_money = money
             
 
-            # Job
+            # CIE
             if roll_a_dice(MISSING_DATA_CONFIG["no_cie"]) :
                 cie = None
             elif roll_a_dice(MISSPELLED_DATA_CONFIG["misp_cie"]) :
@@ -142,7 +146,7 @@ def generate_dirty_csv(number_of_rows : int, filename, faker_locale : str = None
 
             temp_dict = {"name": "" if name is None else name,
                         "age" : "" if age is None else str(age),
-                        "provincia" : "" if provincia is None else provincia,
+                        "province" : "" if province is None else province,
                         "cie" : "" if cie is None else cie,
                         "money" : "" if new_money is None else str(new_money)}
             rows.append(temp_dict)

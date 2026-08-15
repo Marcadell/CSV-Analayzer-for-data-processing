@@ -3,3 +3,11 @@ A CSV Analyzer in Python with a built-in generator of dirty data. The goal of th
 
 ## Possible improvements
     - TBD
+
+## Skills practiced
+    - Python
+    - Pandas
+    - Matplotlib
+    - Regular expressions
+    - Handling invalid data
+    - Find relationships between data

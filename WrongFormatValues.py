@@ -153,8 +153,8 @@ def valid_age(age) -> bool:
 
 def check_wrongFormat_fields(row : pd.Series) -> dict:
         """
-        Checks for any wrong format values in the following fields: name, province, cie.
-        Returns a dict whose keys are the same as fields and whose values 
+        Checks for any wrong format values in the FIELDS_UNDER_TEST.
+        Returns a dict whose keys are FIELDS_UNDER_TEST elements and whose values 
         indicate whether or not the value in that field has wrong format.
         Missing values (pandas NaN) are considered to be spelled correctly. This is not the case
         for empty strings like "".

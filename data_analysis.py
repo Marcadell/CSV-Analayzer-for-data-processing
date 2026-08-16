@@ -28,6 +28,9 @@ class CSVDataAnalyzer:
 
 
     def read_data(self, filename):
+        """
+        Reads a CSV file and returns a pandas.DataFrame. Parameters: filename (str)
+        """
         if "csv" in str(filename):
             self._df = pd.read_csv(filename)
             self._header = self._df.columns.tolist()
@@ -48,7 +51,9 @@ class CSVDataAnalyzer:
                     
             
     def update_missing_values(self):
-
+        """
+        Updates the number of missing values for each field.
+        """
         self._missingName = 0
         self._missingProvince = 0
         self._missingCIE = 0
@@ -74,6 +79,9 @@ class CSVDataAnalyzer:
 
 
     def update_wrongFormat_values(self):
+        """
+        Updates the number of wrongly formatted values for each field.
+        """
         self._wrongName = 0
         self._wrongProvince = 0
         self._wrongCIE = 0
@@ -93,7 +101,9 @@ class CSVDataAnalyzer:
 
 
     def print_dirty_data_statistics(self, update : bool = True):
-
+        """
+        Prints statistics about missing, wrongly formatted and duplicate data.
+        """
         if(update):
             self.update_duplicates()
             self.update_missing()
@@ -120,7 +130,9 @@ class CSVDataAnalyzer:
         print(f"|\n|\n---- missing money:\t{self._missingMoney}")
 
     def show_dirty_data_statistics(self, update : bool = True):
-
+        """
+        Plots statistics about missing, wrongly formatted and duplicate data as bar chart.
+        """
         if(update):
             self.update_duplicates()
             self.update_missing()
@@ -152,6 +164,9 @@ class CSVDataAnalyzer:
         
 
     def print_wealth_by_province(self):
+        """
+        Prints the average salary of the five wealthiest and the five poorest provinces. 
+        """
         df2 = self._df.copy()
 
         df2 = WF.drop_wrongFormat_rows(df2, ["money", "province"]) # Remove dirty data
@@ -163,6 +178,10 @@ class CSVDataAnalyzer:
         print("The five poorest provinces:\n", group_mean.iloc[len(group_mean)-5 : len(group_mean)])
 
     def show_wealth_by_province(self, num_of_poorest : int = 5, num_of_wealthiest : int = 5):
+        """
+        Plots the average salary of the <num_of_wealthiest> and the <num_of_poorest> provinces.
+        Parameters: num_of_poorest (int) : default = 5, num_of_wealthiest : default = 5
+        """
         df2 = self._df.copy()
         
         df2 = WF.drop_wrongFormat_rows(df2, ["money", "province"]) # Remove dirty data
@@ -174,7 +193,7 @@ class CSVDataAnalyzer:
         wealthiest_provinces = group_mean.iloc[0:num_of_wealthiest]
         poorest_provinces = group_mean.iloc[len(group_mean)-num_of_poorest : len(group_mean)]
 
-        fig, (ax1, ax2) = plt.subplots(figsize = (20, 20),nrows = 1, ncols = 2, layout="constrained")
+        fig, (ax1, ax2) = plt.subplots(figsize = (20, 20 ),nrows = 1, ncols = 2, layout="constrained")
         bar_colors = ["tab:red", "tab:orange", "tab:green", "tab:olive", "tab:blue"]
 
         bar_container1 = ax1.bar(x = range(num_of_wealthiest), height = wealthiest_provinces, tick_label = wealthiest_provinces.keys(), color = bar_colors)

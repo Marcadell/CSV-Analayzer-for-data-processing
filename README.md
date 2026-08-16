@@ -14,12 +14,15 @@ An overview of what the program can do is showed and commented in the jupyter no
 4) All the results are showed as bar plots.
 
 ## Possible improvements
-1) For a bigger project, the WrongFormatValues module should be rewritten, since both wrong and wrongly formatted data
+1) The modules can be generalized to deal with different dataframes; one could think to write some class methods to read the csv header build a different dataframe. Nevertheless, much of the code would need to be rewritten, and one would need to try to predict the format of fields commonly found in datasets, such as names and ages.
+2) For a bigger project, the WrongFormatValues module should be rewritten, since both wrong and wrongly formatted data
    have been grouped under the same definition of "wrongly formatted data".
    For example, a negative age is well formatted as integer but has no significance.
 3) The average salary for the kid age group doesn't make sense, since kids don't have one. The possible solutions could be:
         a. To drop any row within the "kid" range with a "money" value greater than zero
         b. To set the aforementioned "money" value to zero 
+4) The "age group" range is not specified in the matplotlib figure for simplicity, but without it the result is ambiguous. 
+   It can be placed inside the bars or below the labels using the mpl functions.
 
 ## Skills practiced
     - Python

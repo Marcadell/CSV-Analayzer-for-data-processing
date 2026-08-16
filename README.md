@@ -14,9 +14,10 @@ An overview of what the program can do is showed and commented in the jupyter no
 4) All the results are showed as bar plots.
 
 ## Possible improvements
-    - For a bigger project, the WrongFormatValues module should be rewritten, since both wrong and wrongly format data
-      have been grouped under the same definition of "wrongly format data". For example, a negative age is well formatted as integer but has no significate.
-    - The average salary for the kid age group has no sense, since kids don't have one. The possible solutions could be:
+1) For a bigger project, the WrongFormatValues module should be rewritten, since both wrong and wrongly format data
+   have been grouped under the same definition of "wrongly format data".
+   For example, a negative age is well formatted as integer but has no significate.
+3) The average salary for the kid age group has no sense, since kids don't have one. The possible solutions could be:
         a. To drop any row within the "kid" range with a "money" value greater than zero
         b. To set the aforementioned "money" value to zero 
 

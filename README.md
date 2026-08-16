@@ -1,5 +1,5 @@
 # CSV-Analyzer-for-data-processing
-A CSV Analyzer in Python with a built-in generator of dirty data. This little project aims to point out common problems when
+A CSV Analyzer in Python with a built-in generator of dirty data. This little project aims to highlight common problems that arise when
 dealing with dirty datasets, like invalid, wrongly formatted, duplicated or missing data.
 An overview of what the program can do is showed and commented in the jupyter notebook. An example on how the program can be used is shown in the main, which will:
 
@@ -14,10 +14,10 @@ An overview of what the program can do is showed and commented in the jupyter no
 4) All the results are showed as bar plots.
 
 ## Possible improvements
-1) For a bigger project, the WrongFormatValues module should be rewritten, since both wrong and wrongly format data
-   have been grouped under the same definition of "wrongly format data".
-   For example, a negative age is well formatted as integer but has no significate.
-3) The average salary for the kid age group has no sense, since kids don't have one. The possible solutions could be:
+1) For a bigger project, the WrongFormatValues module should be rewritten, since both wrong and wrongly formatted data
+   have been grouped under the same definition of "wrongly formatted data".
+   For example, a negative age is well formatted as integer but has no significance.
+3) The average salary for the kid age group doesn't make sense, since kids don't have one. The possible solutions could be:
         a. To drop any row within the "kid" range with a "money" value greater than zero
         b. To set the aforementioned "money" value to zero 
 

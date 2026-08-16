@@ -13,8 +13,3 @@ pd.set_option({"display.max_columns": 200, "display.max_rows": 200})
 
 myAnalyzer = CSVDataAnalyzer()
 myAnalyzer.read_data(filename)
-
-myAnalyzer.print_dirty_data_statistics()
-myAnalyzer.wealth_by_province()
-#myAnalyzer.show_dirty_data_statistics()
-

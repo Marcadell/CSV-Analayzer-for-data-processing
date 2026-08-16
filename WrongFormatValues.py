@@ -27,7 +27,7 @@ VALID_CIE_DESCRIPTION = "#A valid CIE (Carta d'Identità Elettronica) starts wit
 "is followed by 5 numbers and ends 2 uppercase letters"
 
 VALID_MONEY = r"\d+(?:\.\d+)?"
-VALID_MONEY_DESCRIPTION = "#A valid money value has only numbers and optionally a dot to separate decimal digits."
+VALID_MONEY_DESCRIPTION = "#A valid money value has only numbers and optionally a dot to separate decimal digits. Negative money values are not allowed"
 
 VALID_PROVINCE_CODES = [
         "AG",
@@ -214,7 +214,8 @@ def drop_wrongFormat_rows(df : pd.DataFrame, fields : list):
                      df2.drop(index = i, inplace = True)
               elif "province" in fields and row["province"] not in VALID_PROVINCE_CODES:
                      df2.drop(index = i, inplace = True)
-              elif "age" in fields and not valid_age(row["age"]):
+              elif "age" in fields and not valid_age(row["age"]): # Since a valid "age" would be a positive integer
+                                                                  # these are not fields with an incorrect format but rather wrong data.
                      df2.drop(index = i, inplace = True) 
               elif "cie" in fields and not re.fullmatch(VALID_CIE, row["cie"]):
                      df2.drop(index = i, inplace=True)

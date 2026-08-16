@@ -151,7 +151,7 @@ class CSVDataAnalyzer:
 
         
 
-    def wealth_by_province(self):
+    def print_wealth_by_province(self):
         df2 = self._df.copy()
 
         df2 = WF.drop_wrongFormat_rows(df2, ["money", "province"]) # Remove dirty data
@@ -161,7 +161,67 @@ class CSVDataAnalyzer:
         group_mean = group.mean().sort_values(ascending = False)
         print("The five wealthiest provinces:\n",group_mean.iloc[0:5])
         print("The five poorest provinces:\n", group_mean.iloc[len(group_mean)-5 : len(group_mean)])
-        print(group_mean)
+
+    def show_wealth_by_province(self, num_of_poorest : int = 5, num_of_wealthiest : int = 5):
+        df2 = self._df.copy()
+        
+        df2 = WF.drop_wrongFormat_rows(df2, ["money", "province"]) # Remove dirty data
+        df2["money"] = pd.to_numeric(df2["money"]) #Since some rows have the "$" character, "money" column is treated as a str type
+
+        group = df2.groupby(by ="province", dropna = True)["money"]
+        group_mean = group.mean().sort_values(ascending = False)
+
+        wealthiest_provinces = group_mean.iloc[0:num_of_wealthiest]
+        poorest_provinces = group_mean.iloc[len(group_mean)-num_of_poorest : len(group_mean)]
+
+        fig, (ax1, ax2) = plt.subplots(nrows = 1, ncols = 2, layout="constrained")
+        bar_colors = ["tab:red", "tab:orange", "tab:green", "tab:olive", "tab:blue"]
+
+        ax1.bar(x = range(num_of_wealthiest), height = wealthiest_provinces, tick_label = wealthiest_provinces.keys(), color = bar_colors)
+        ax2.bar(x = range(num_of_poorest), height = poorest_provinces, tick_label = poorest_provinces.keys(), color = bar_colors)
+        
+        ax1.set_ylabel("Average salary (€)")
+        ax1.set_title(f"The {num_of_wealthiest} wealthiest regions")
+        ax2.set_title(f"The {num_of_poorest} poorest regions")
+
+        plt.show()
+
+    def show_wealth_by_age(self):
+        """
+        The solution to group age values was inspired by the following StackOverflow thread :] :
+        https://stackoverflow.com/a/52753673
+        """
+
+        age_range = (0, 10, 18, 40, 65, 122)
+        age_labels = ("Kids", "Teens", "Young adults", "Adults", "Elders")
+
+        df2 = self._df.copy()
+        df2.dropna(inplace=True)
+        df2 = WF.drop_wrongFormat_rows(df2, ["age", "money"]) #That's a bit overkill because one could read negative ages and just flip 'em. 
+                                                   #Anyway this is an example of how to deal with wrong data.
+        
+        df2["AgeGroup"] = pd.cut(df2["age"], bins = age_range, labels = age_labels, right = False)
+        df2["money"] = pd.to_numeric(df2["money"]) #Since some rows have the "$" character, "money" column is treated as a str type
+
+        group = df2.groupby(by = "AgeGroup", dropna = True)["money"]
+        group_mean = group.mean().sort_values(ascending = False)
+        bar_colors = ["tab:red", "tab:orange", "tab:green", "tab:olive", "tab:blue"]
+
+        fig, ax = plt.subplots(layout = "constrained")
+        bar_container = ax.bar(x = range(5), height = [group_mean[x] for x in age_labels], tick_label = age_labels, color = bar_colors)
+        ax.bar_label(bar_container, fmt = lambda x: f"€{x:.2f}")
+        ax.set_ylabel("Average salary (€)")
+        ax.set_title("Average salary by age group")
+        ax.set_xlabel("Age group")
+
+        plt.show()
+
+        
+        
+
+        
+
+        
                 
                         
     

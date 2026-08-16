@@ -174,15 +174,18 @@ class CSVDataAnalyzer:
         wealthiest_provinces = group_mean.iloc[0:num_of_wealthiest]
         poorest_provinces = group_mean.iloc[len(group_mean)-num_of_poorest : len(group_mean)]
 
-        fig, (ax1, ax2) = plt.subplots(nrows = 1, ncols = 2, layout="constrained")
+        fig, (ax1, ax2) = plt.subplots(figsize = (20, 20),nrows = 1, ncols = 2, layout="constrained")
         bar_colors = ["tab:red", "tab:orange", "tab:green", "tab:olive", "tab:blue"]
 
-        ax1.bar(x = range(num_of_wealthiest), height = wealthiest_provinces, tick_label = wealthiest_provinces.keys(), color = bar_colors)
-        ax2.bar(x = range(num_of_poorest), height = poorest_provinces, tick_label = poorest_provinces.keys(), color = bar_colors)
-        
+        bar_container1 = ax1.bar(x = range(num_of_wealthiest), height = wealthiest_provinces, tick_label = wealthiest_provinces.keys(), color = bar_colors)
+        bar_container2 = ax2.bar(x = range(num_of_poorest), height = poorest_provinces, tick_label = poorest_provinces.keys(), color = bar_colors)
+
+        ax1.bar_label(bar_container1, fmt = lambda x : f"€{x:.2f}")
+        ax2.bar_label(bar_container2, fmt = lambda x : f"€{x:.2f}")
+
         ax1.set_ylabel("Average salary (€)")
-        ax1.set_title(f"The {num_of_wealthiest} wealthiest regions")
-        ax2.set_title(f"The {num_of_poorest} poorest regions")
+        ax1.set_title(f"The {num_of_wealthiest} wealthiest provinces")
+        ax2.set_title(f"The {num_of_poorest} poorest provinces")
 
         plt.show()
 

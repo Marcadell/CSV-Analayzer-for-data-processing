@@ -6,8 +6,8 @@ An overview of what the program can do is showed and commented in the jupyter no
 1) Generate a sample dataset with dirty data (all data like name, age, CIE and money are fake values generated with Faker, hence no real person data is used).
 
 2) Read the dataset (a .csv file) counting:
-    - the number of rows containing missing, wrong or wrongly format data.
-    - the number of occurrences of missing, wrong or wrongly format data for each field.
+    - the number of rows containing missing, wrong or wrongly formatted data.
+    - the number of occurrences of missing, wrong or wrongly formatted data for each field.
 
 3) Cleans the dataset dropping rows with duplicate, invalid or missing data, calculating the average salary by province and age group.
    
